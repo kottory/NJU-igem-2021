@@ -10,13 +10,15 @@
     "gulp-clean": "^0.4.0",
     "gulp-cli": "^2.3.0",
     "gulp-postcss": "^9.0.0",
-    "gulp-pug": "^4.0.1",
-    "igemwiki-api": "^1.1.1"
+    "gulp-pug": "^4.0.1"
   },
   "dependencies": {
     "autoprefixer": "^10.2.6",
+    "bluebird": "^3.7.2",
     "browser-sync": "^2.26.14",
+    "globby": "^11.0.3",
     "jstransformer-markdown-it": "^2.1.0",
+    "lodash": "^4.17.21",
     "pug": "^3.0.2",
     "tailwindcss": "^2.1.2"
   }
