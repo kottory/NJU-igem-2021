@@ -1,0 +1,36 @@
+assets:
+  assets/file/Affidavit_of_Approval_of_Animal_Ehical_and_Welfare.pdf:
+    link_URL: https://2021.igem.org/wiki/images/9/90/T--NJU-China--file--Affidavit_of_Approval_of_Animal_Ehical_and_Welfare.pdf
+    md5: 5b170005b12b269cea65320b25b50d2d
+    upload_filename: T--NJU-China--file--Affidavit_of_Approval_of_Animal_Ehical_and_Welfare.pdf
+  assets/file/EDA_Report_test1.pdf:
+    link_URL: https://2021.igem.org/wiki/images/8/8d/T--NJU-China--file--EDA_Report_test1.pdf
+    md5: 8ef04d0d12abc386bf1d26b8e0ae02d5
+    upload_filename: T--NJU-China--file--EDA_Report_test1.pdf
+  assets/file/EDA_Report_test2.pdf:
+    link_URL: https://2021.igem.org/wiki/images/a/a5/T--NJU-China--file--EDA_Report_test2.pdf
+    md5: 2f446dafde2893c43524e92b2bbff27f
+    upload_filename: T--NJU-China--file--EDA_Report_test2.pdf
+  assets/file/EDA_Report_test3.pdf:
+    link_URL: https://2021.igem.org/wiki/images/d/dd/T--NJU-China--file--EDA_Report_test3.pdf
+    md5: c0f8d52ff343fdb632c759ad6450f475
+    upload_filename: T--NJU-China--file--EDA_Report_test3.pdf
+  assets/image/igem-nju.png:
+    link_URL: https://2021.igem.org/wiki/images/6/6a/T--NJU-China--image--igem-nju.png
+    md5: 533c908b8a829c5a041cbf45bfe89d9a
+    upload_filename: T--NJU-China--image--igem-nju.png
+css:
+  style/global.css:
+    link_URL: https://2021.igem.org/Template:NJU-China/style/globalCSS?action=raw&ctype=text/css
+    md5: 017f55b7dd05797a1aa5b1e1ba70edd2
+  style/igem.css:
+    link_URL: https://2021.igem.org/Template:NJU-China/style/igemCSS?action=raw&ctype=text/css
+    md5: 57999f7350f5694a0d18e0136f58ee48
+html:
+  index.html:
+    link_URL: https://2021.igem.org/Team:NJU-China
+    md5: 14ac71935b4184439fc4dc1b9d6832a5
+js:
+  script/alpine.js:
+    link_URL: https://2021.igem.org/Template:NJU-China/script/alpineJS?action=raw&ctype=text/javascript
+    md5: b24fe539f473931072231c0288fc1c53

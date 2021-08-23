@@ -1,0 +1,29 @@
+#firstHeading, #home_logo, #sideMenu, #top_title, .patrollink {
+  display: none
+}
+
+#content {
+  border: none;
+  margin-left: 0;
+  margin-top: -7px;
+  padding: 0;
+  width: 100%
+}
+
+body, html {
+  background-color: #fff;
+  height: 100%;
+  width: 100%
+}
+
+#nju-main-body a:active {
+  @apply active:text-gray-50;
+}
+
+#nju-main-body p {
+  @apply font-normal text-base;
+}
+
+#nju-main-body img {
+  @apply border-none max-w-6xl;
+}

@@ -1,0 +1,78 @@
+html 
+  head 
+    link(rel="stylesheet" href="style/global.css")
+    link(rel="stylesheet" href="style/igem.css")
+    block title 
+  body 
+    div#nju-main-body(class="flex flex-col min-h-screen")
+      nav(class="nju-navbar")
+        a(href="/" class="font-bold text-xl py-1.5 tracking-widest") NJU-China 2021
+
+        div(class="flex flex-row flex-wrap space-x-5 text-base")
+          div(x-data="{ open: false }" @click.away="open = false")
+            button(class="nju-navbar-item" @click="open = !open")
+              p(class="inline") Project
+              svg(fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 transition-transform duration-200 transform md:-mt-1")
+                path(fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd")
+            div(x-show="open" class="nju-popup-menu")
+              div: a(href="/Description")  Description
+              div: a(href="/Design")  Design
+              div: a(href="/Results") Results
+              div: a(href="/Models")  Models
+              div: a(href="/Implementation") Implementation
+              div: a(href="/Proof_Of_Concept")  Proof Of Concept
+              div: a(href="/Engineering")  Engineering
+              div: a(href="/Contribution") Contribution
+              div: a(href="/Safety") Safety
+    
+          div(x-data="{ open: false }" @click.away="open = false")
+            button(class="nju-navbar-item" @click="open = !open")
+              p(class="inline") Human Practices
+              svg(fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 transition-transform duration-200 transform md:-mt-1")
+                path(fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd")
+            div(x-show="open" class="nju-popup-menu")
+              div: a(href="/Human_Practices") Overview
+              div: a(href="/Collaborations") Collaborations
+              div: a(href="/Education") Education
+              div: a(href="/Partnership") Partnership
+              div: a(href="/Art") Art
+          
+          div(x-data="{ open: false }" @click.away="open = false")
+            button(class="nju-navbar-item" @click="open = !open")
+              p(class="inline") Notebook
+              svg(fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 transition-transform duration-200 transform md:-mt-1")
+                path(fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd")
+            div(x-show="open" class="nju-popup-menu")
+              div: a(href="/Calendar") Calendar
+              div: a(href="/Protocol") Protocol
+
+          div(x-data="{ open: false }" @click.away="open = false")
+            button(class="nju-navbar-item" @click="open = !open")
+              p(class="inline") Team
+              svg(fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 transition-transform duration-200 transform md:-mt-1")
+                path(fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd")
+            div(x-show="open" class="nju-popup-menu")
+              div: a(href="/Members") Members
+              div: a(href="/Attributions") Attributions
+
+          a(class="nju-navbar-item" href="/Achivements") Achivements
+          a(class="nju-navbar-item" href="/Parts") Parts
+
+      main(class="flex-grow container mx-auto mt-8")
+        block content
+
+      footer#nju-footer(class="flex flex-col w-full bg-gray-100 text-gray-600 pt-6 pb-2 px-20")
+        div(class="flex flex-row justify-around space-x-5")
+          
+          div(class="flex flex-col")
+            h2 About
+            a(href="https://www.nju.edu.cn"): p Nanjing University Official Website
+            a(href="https://github.com/kottory/NJU-igem-2021"): p Site Repository On GitHub
+          div(class="flex flex-col")
+            h2 Contact Us
+            p School of Life Science, 163 Xianlin Road, Qixia District, Nanjing University, Jiangsu Province, China
+            p: a(href="mailto:example@nju.edu.cn") example@nju.edu.cn
+          
+        div(class="pt-6 w-full text-center") ©2021 NJU-China iGem Team All Rights Reserved.
+
+  script(src="script/alpine.js")

@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nju-navbar {
+    @apply w-full flex flex-col md:flex-row items-center flex-wrap justify-between px-8 py-1 bg-gray-900 text-white font-normal;
+  }
+  .nju-navbar-item {
+    @apply px-1.5 focus:outline-none rounded focus:ring focus:border-blue-300;
+  }
+  .nju-popup-menu {
+    @apply absolute px-3 pt-2 pb-4 bg-gray-800 rounded-md shadow-lg space-y-3;
+  }
+}
+
+#nju-footer h2  {
+  @apply text-xl;
+}
+
+#nju-footer p {
+  @apply text-xs;
+}
+
+#nju-footer a {
+  @apply underline hover:text-teal-600 active:text-black;
+}
+
+#markdown-body a {
+  @apply text-teal-600 underline text-xl;
+}
+
+#markdown-body p {
+  @apply text-gray-800 text-xl;
+}
+
+#markdown-body ul {
+  @apply list-disc mb-5 mt-3 pl-5;
+}
+
+#markdown-body h1 {
+  @apply text-4xl pb-2 text-center;
+}

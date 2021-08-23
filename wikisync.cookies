@@ -1,0 +1,14 @@
+#LWP-Cookies-2.0
+Set-Cookie3: 2020_igem_orgToken=7e07a5adaa4c87916400ff0e3018c1c1; path="/"; domain="2020.igem.org"; path_spec; expires="2022-02-19 15:52:55Z"; httponly=None; version=0
+Set-Cookie3: 2020_igem_orgUserID=6795; path="/"; domain="2020.igem.org"; path_spec; expires="2022-02-19 15:52:55Z"; httponly=None; version=0
+Set-Cookie3: 2020_igem_orgUserName=Kottory; path="/"; domain="2020.igem.org"; path_spec; expires="2022-02-19 15:52:55Z"; httponly=None; version=0
+Set-Cookie3: 2021_igem_orgToken=4c81394d5504d3e2a6e34dabe01b66a3; path="/"; domain="2021.igem.org"; path_spec; expires="2022-02-19 15:52:58Z"; httponly=None; version=0
+Set-Cookie3: 2021_igem_orgUserID=1995; path="/"; domain="2021.igem.org"; path_spec; expires="2022-02-19 15:52:58Z"; httponly=None; version=0
+Set-Cookie3: 2021_igem_orgUserName=Kottory; path="/"; domain="2021.igem.org"; path_spec; expires="2022-02-19 15:52:58Z"; httponly=None; version=0
+Set-Cookie3: igem_orgToken=1d92b9a284ef3f48f3bd33f30497252b; path="/"; domain="igem.org"; path_spec; expires="2022-02-19 15:52:52Z"; httponly=None; version=0
+Set-Cookie3: igem_orgUserID=34141; path="/"; domain="igem.org"; path_spec; expires="2022-02-19 15:52:52Z"; httponly=None; version=0
+Set-Cookie3: igem_orgUserName=Kottory; path="/"; domain="igem.org"; path_spec; expires="2022-02-19 15:52:52Z"; httponly=None; version=0
+Set-Cookie3: username=kottory; path="/"; domain="igem.org"; path_spec; expires="2021-09-22 15:52:50Z"; version=0
+Set-Cookie3: parts_igem_orgToken=605e0a9be2abd4cbf4404288ad73bf51; path="/"; domain="parts.igem.org"; path_spec; expires="2022-02-19 15:52:53Z"; httponly=None; version=0
+Set-Cookie3: parts_igem_orgUserID=35330; path="/"; domain="parts.igem.org"; path_spec; expires="2022-02-19 15:52:53Z"; httponly=None; version=0
+Set-Cookie3: parts_igem_orgUserName=Kottory; path="/"; domain="parts.igem.org"; path_spec; expires="2022-02-19 15:52:53Z"; httponly=None; version=0
