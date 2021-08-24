@@ -2,6 +2,7 @@ html
   head 
     link(rel="stylesheet" href="style/global.css")
     link(rel="stylesheet" href="style/igem.css")
+    link(rel="stylesheet" href="style/markdown.css")
     block title 
   body 
     div#nju-main-body(class="flex flex-col min-h-screen")
@@ -58,7 +59,7 @@ html
           a(class="nju-navbar-item" href="/Achivements") Achivements
           a(class="nju-navbar-item" href="/Parts") Parts
 
-      main(class="flex-grow container mx-auto mt-8")
+      main(class="flex-grow container max-w-screen-lg mx-auto mt-8")
         block content
 
       footer#nju-footer(class="flex flex-col w-full bg-gray-100 text-gray-600 pt-6 pb-2 px-20")

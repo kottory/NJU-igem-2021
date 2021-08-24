@@ -1,0 +1,19 @@
+#markdown-body a {
+  @apply text-teal-600 underline text-xl;
+}
+
+#nju-main-body #markdown-body p {
+  @apply text-gray-800 text-xl pb-2;
+}
+
+#markdown-body ul {
+  @apply list-disc mb-5 mt-3 pl-5;
+}
+
+#markdown-body h1 {
+  @apply text-5xl pb-8 text-center;
+}
+
+#nju-main-body img {
+  @apply max-w-full lg:max-w-lg;
+}

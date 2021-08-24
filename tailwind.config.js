@@ -24,6 +24,10 @@ module.exports = {
       yellow: colors.amber,
       teal: colors.teal,
       primary: '#0000cd'
+    },
+    fontFamily: {
+      'sans': ['Montserrat', 'sans-serif'],
+      'serif': ['"Kaisei Opti"', 'serif']
     }
   },
   variants: {

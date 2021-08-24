@@ -32,11 +32,15 @@ function make_file() {
   return src('src/assets/file/*').pipe(dest('build/assets/file/'));
 }
 
+function make_font() {
+  return src('src/assets/font/*').pipe(dest('build/assets/font/'));
+}
+
 function make_script() {
   return src('src/script/*').pipe(dest('build/script/'));
 }
 
-const make = series(make_pug, make_postcss, make_image, make_file, make_script);
+const make = series(make_pug, make_postcss, make_image, make_file, make_font, make_script);
 
 function browser_sync() {
   browserSync.init({
