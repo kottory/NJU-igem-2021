@@ -3,13 +3,13 @@
 @tailwind utilities;
 @layer components {
   .nju-navbar {
-    @apply w-full flex flex-col lg:flex-row items-center flex-wrap justify-between px-8 py-1 bg-indigo-800 text-white font-normal;
+    @apply w-full flex flex-col lg:flex-row items-center flex-wrap justify-between px-8 py-1 bg-gray-100 font-normal;
   }
   .nju-navbar-item {
-    @apply px-1.5 focus:outline-none rounded focus:ring focus:border-blue-300;
+    @apply px-1.5 focus:outline-none rounded focus:ring focus:border-blue-200;
   }
   .nju-popup-menu {
-    @apply absolute px-3 pt-2 pb-4 bg-indigo-900 rounded-md shadow-lg space-y-3;
+    @apply absolute px-3 pt-4 pb-4 bg-gray-200 shadow-md rounded-md space-y-3;
   }
 }
 

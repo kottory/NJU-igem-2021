@@ -1,9 +1,13 @@
 html 
   head 
-    link(rel="stylesheet" href="style/global.css")
-    link(rel="stylesheet" href="style/igem.css")
-    link(rel="stylesheet" href="style/markdown.css")
-    block title 
+    //- link(rel="stylesheet" href="style/global.css")
+    //- link(rel="stylesheet" href="style/igem.css")
+    //- link(rel="stylesheet" href="style/markdown.css")    
+    //- link(rel="stylesheet" href="../style/global.css")
+    //- link(rel="stylesheet" href="../style/igem.css")
+    //- link(rel="stylesheet" href="../style/markdown.css")
+    
+    block head
   body 
     div#nju-main-body(class="flex flex-col min-h-screen")
       nav(class="nju-navbar")
@@ -19,7 +23,7 @@ html
               div: a(href="/Description")  Description
               div: a(href="/Design")  Design
               div: a(href="/Results") Results
-              div: a(href="/Models")  Models
+              div: a(href="/Model")  Models
               div: a(href="/Implementation") Implementation
               div: a(href="/Proof_Of_Concept")  Proof Of Concept
               div: a(href="/Engineering")  Engineering
@@ -76,4 +80,5 @@ html
           
         div(class="pt-6 w-full text-center") ©2021 NJU-China iGem Team All Rights Reserved.
 
-  script(src="script/alpine.js")
+  //- script(src="script/alpine.js")
+  block script

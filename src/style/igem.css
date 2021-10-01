@@ -16,8 +16,12 @@ body, html {
   width: 100%
 }
 
-#nju-main-body a:active {
-  @apply active:text-gray-50;
+#content #HQ_page #bodyContent #nju-main-body a:visited {
+  all:unset
+}
+
+#nju-main-body #nju-nav-bar a:visited {
+  @apply text-white;
 }
 
 #nju-main-body p {
