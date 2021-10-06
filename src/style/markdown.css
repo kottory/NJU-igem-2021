@@ -1,9 +1,13 @@
+#markdown-body {
+  @apply ordinal;
+}
+
 #markdown-body a {
-  @apply text-teal-600 underline text-xl;
+  @apply text-teal-600 underline;
 }
 
 #nju-main-body #markdown-body p {
-  @apply text-gray-800 text-xl pb-2;
+  @apply text-gray-800 pb-6 leading-relaxed text-lg;
 }
 
 #markdown-body ul {
@@ -11,9 +15,29 @@
 }
 
 #markdown-body h1 {
-  @apply text-5xl pb-8 text-center;
+  @apply text-5xl pb-8 text-center tracking-wider;
 }
 
 #nju-main-body img {
   @apply max-w-full lg:max-w-lg;
+}
+
+#nju-main-body h2 {
+  @apply text-3xl pb-4;
+}
+
+#nju-main-body h3 {
+  @apply text-2xl pb-4 font-bold;
+}
+
+#markdown-body table {
+  @apply text-lg;
+}
+
+#markdown-body thead {
+  @apply capitalize;
+}
+
+#markdown-body td {
+  @apply px-4 py-6;
 }

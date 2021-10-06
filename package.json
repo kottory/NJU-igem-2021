@@ -21,6 +21,6 @@
     "jstransformer-markdown-it": "^2.1.0",
     "lodash": "^4.17.21",
     "pug": "^3.0.2",
-    "tailwindcss": "^2.1.2"
+    "tailwindcss": "^2.2.15"
   }
 }

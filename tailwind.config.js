@@ -23,7 +23,8 @@ module.exports = {
       red: colors.rose,
       yellow: colors.amber,
       teal: colors.teal,
-      primary: '#0000cd'
+      primary: '#0000cd',
+      cyan: colors.cyan
     },
     fontFamily: {
       'sans': ['Montserrat', 'sans-serif'],

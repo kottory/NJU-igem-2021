@@ -48,3 +48,29 @@
 #nju-footer a {
   @apply underline hover:text-teal-600 active:text-black;
 }
+
+/* info card */
+
+#nju-main-content .nju-info-card {
+  @apply md:flex bg-gray-50 shadow-xl p-8 md:p-0 mb-8;
+}
+
+#nju-main-body #nju-main-content #markdown-body .nju-info-card .nju-info-card-name {
+  @apply md:text-center text-cyan-600;
+}
+
+#nju-main-body #nju-main-content #markdown-body .nju-info-card img.nju-info-card-img {
+  @apply w-32 h-32 md:w-64 mx-auto md:h-auto rounded-full md:rounded-none;
+}
+
+#nju-main-body #nju-main-content #markdown-body .nju-info-card .nju-info-card-attri {
+  @apply md:text-center text-lg items-center;
+}
+
+#nju-main-body #nju-main-content #markdown-body .nju-info-card .nju-info-card-description {
+  @apply pt-6 md:p-8 text-center md:text-left space-y-4;
+}
+
+#nju-main-body #nju-main-content #markdown-body .nju-info-card .nju-info-card-title {
+  @apply md:text-center text-gray-500;
+}
