@@ -74,3 +74,7 @@
 #nju-main-body #nju-main-content #markdown-body .nju-info-card .nju-info-card-title {
   @apply md:text-center text-gray-500;
 }
+
+#nju-main-body #markdown-body img {
+  @apply mx-auto;
+}

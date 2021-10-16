@@ -6,7 +6,7 @@
   @apply text-teal-600 underline;
 }
 
-#nju-main-body #markdown-body p {
+#nju-main-body #markdown-body p, #nju-main-body #markdown-body center {
   @apply text-gray-800 pb-6 leading-relaxed text-lg;
 }
 
@@ -28,6 +28,10 @@
 
 #nju-main-body h3 {
   @apply text-2xl pb-4 font-bold;
+}
+
+#nju-main-body h3 {
+  @apply text-2xl pb-4;
 }
 
 #markdown-body table {
