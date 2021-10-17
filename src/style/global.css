@@ -38,7 +38,7 @@
 }
 
 #nju-footer h2 {
-  @apply text-2xl font-bold pb-2;
+  @apply text-2xl font-bold pb-2 mb-0;
 }
 
 #nju-footer p {

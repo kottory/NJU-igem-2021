@@ -311,6 +311,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/6/60/T--NJU-China--image--wujinglu.jpg
     md5: f74dc68b3ef0938347163c3f6fef5ad8
     upload_filename: T--NJU-China--image--wujinglu.jpg
+  assets/image/wujinhui.jpg:
+    link_URL: https://2021.igem.org/wiki/images/d/d5/T--NJU-China--image--wujinhui.jpg
+    md5: 2532561424febfc2052b48158d618215
+    upload_filename: T--NJU-China--image--wujinhui.jpg
   assets/image/yanxinwen.jpg:
     link_URL: https://2021.igem.org/wiki/images/6/64/T--NJU-China--image--yanxinwen.jpg
     md5: 608630d0465f6f0a579ec8015611f4f1
@@ -319,10 +323,14 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/4/43/T--NJU-China--image--yanyu.jpg
     md5: 80916ac09b4d8d722b751a6f25dfc804
     upload_filename: T--NJU-China--image--yanyu.jpg
+  assets/image/zhoudingpei.jpg:
+    link_URL: https://2021.igem.org/wiki/images/9/9f/T--NJU-China--image--zhoudingpei.jpg
+    md5: 35cdda6a7e759c5df2ab717d63e2b752
+    upload_filename: T--NJU-China--image--zhoudingpei.jpg
 css:
   style/global.css:
     link_URL: https://2021.igem.org/Template:NJU-China/style/globalCSS?action=raw&ctype=text/css
-    md5: adc480404c6fb7194268c15f1aeed173
+    md5: 8e96edd532dce91025915154703d09e8
   style/igem.css:
     link_URL: https://2021.igem.org/Template:NJU-China/style/igemCSS?action=raw&ctype=text/css
     md5: 6983cc5183892594cf8fad00586b3fdf
@@ -335,7 +343,7 @@ html:
     md5: b1dbe33944a5c608b9c17dd6b8912e32
   Attributions/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Attributions
-    md5: fb9a85eba89bed01def1e52cac79c27b
+    md5: bb1c5a7f2ba03ac65b3ef1eed0e56835
   Collaborations/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Collaborations
     md5: b1dbe33944a5c608b9c17dd6b8912e32
