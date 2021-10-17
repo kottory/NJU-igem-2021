@@ -7,10 +7,133 @@ block content
   
   #markdown-body
     :markdown-it
-      # Welcome to our Education Page!
+      # Proof Of Concept
 
-      **This page is under construction, and will be fully implemented soon**.
+      After we have completed the construction, verification and optimization of the parts, we consider further experiments to verify whether our project can truly treat asthma caused by type 2 inflammation. We have determined the strategy of liposome delivery through a series of experiments, and further proof of our concept through the docking modeling of fusion proteins and molecules, and the implementation of in vivo animal experiments.
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-      ![team logo](../assets/image/igem-nju.png)
+
+      # 1. Screening of liposomes
+
+      After completing plasmid construction and mcDNA extraction, we considered how to deliver our mcDNA to epithelial cells with both safety and efficiency. Therefore, we interviewd Professor Wu Jinhui from the Institute of Drug R&D, Nanjing University. Professor Wu recommended that we select some cationic liposomes and liposomes with targeted peptides for experimental screening, and select the best liposome for treatment. Therefore, cationic liposome Lipofectamine 2000, DOTMA/Chol, Lipofectin and LID were initially selected for screening through our literature searching. 
+
+      We selected pcDNA3.1-GFP as cargo in the liposome and use GFP protein expression as an indicator for the efficiency of liposome transfection. We selected different kinds of liposomes and ratios of  DNA : liposome for screening. 
+
+      ## Screening of liposomes by efficiency
+
+      Four kinds of liposomes, namely Lipofectamine 2000, DOTMA/Chol, Lipofectin and LID, and three DNA: liposome ratios, 1:5, 2:5 and 4:5, were selected. The optimal liposome and DNA : liposome ratio was screened by the following experimental results.
+
+      We compared the transfection efficiency of LID（Lipofectin : peptide=1：0.76）,DOTMA / Chol, Lipofectamine 2000 and Lipofectin encapsulated with different concentrations of DNA into the mouse lung epithelial cell line 16HBE cells (Fig.1A)
+
+      The fluorescence of two random pictures in the same well cells with the same exposure time (1/2.5s) and the same sensitivity were captured, and the fluorescence intensity was analyzed by ImageJ. The results showed that the transfection efficiency was the best when LID was used to package DNA at a DNA:liposome ratio of 4:5  (Fig.1B)
+
+      ![Result_Fig4](../assets/image/Result_Fig4.png)
+
+    center Fig.1 A.Results of GFP expression in 16HBE cells; B. Quantification of GFP fluorescence
+    :markdown-it
+
+
+
+      ## Screening of liposomes by safety
+
+      We used CCK8 Assay to screen liposome in the view of safety. After the optimal DNA : liposome ratio was determined, we transfected 16HBE cells with four liposomes and their corresponding optimal DNA : liposome ratio. The cargo DNA  we used was still pcDNA3.1-GFP. 8 hours after transfection, we diluted the cells to 6000 cells/well and seeded into 96-well plates. The cells were further cultured with 2% DMEM. CCK8 reagent was added at 12, 24, 36 and 48h to detect the cell growth. The experimental results (Fig.2) showed that there was no obvious toxicity for our selected liposome LID compared to the mock group, but significantly better than the commonly-used liposome, Lipofectamine 2000.
+
+      ![Result_Fig5](../assets/image/Result_Fig5.png)
+
+    center Fig.2 Result of CCK8 Assay for liposome screening
+    :markdown-it
+
+
+
+      # 2. Verification for our targeting peptides
+
+      ## Construction of fusion protein model
+
+      In order to demonstrate that our targeting peptides, CKLF1C19-Lamp2b and RGD-Lamp2b, can locate on exosome surface, we constructed our proteins structure using homology modeling with the help of I-TASSER. Further, we conduct alignments with our targeting peptides to the natural Lamp2b protein (Fig.3). The alignment results showed that our fusion proteins were almost the same as the natural Lamp2b regarding to the transmembrane domain, which promised that our targeting peptides can successfully anchored on the exosome memberane. 
+
+      ![Result_Fig6](../assets/image/Result_Fig6.png)
+
+    center Fig.3 The Alignment results of CKLF1C19-Lamp2b (Left) and RGD-Lamp2b (Right). Cyans and Green parts are transmembrane domain with C terminus of targeting peptide and Lamp2b respectively. 
+    :markdown-it
+
+
+
+      ## Protein-Protein docking between fusion proteins and receptor proteins
+
+      To further illustrate our targeting peptides features, CLUS PRO software was used to simulate the protein-protein docking process. Both the two targeting peptides results showed the feasibility of targeting affinity (Fig.4). For detail, please go to [Models](/Models)
+
+      ![Result_Fig7](../assets/image/Result_Fig7.png)
+
+    center Fig.4 Protein-Protein Docking results of CKLF1C19-Lamp2b with its receptor CCR3 (left) and RGD-Lamp2b with its receptor intergrin (right). Green: receptor proteins; Orange: targeting peptide domain in our fusion proteins; Cyan: rest part of our fusion proteins
+    :markdown-it
+
+
+
+      # 3. Proof-of-Concept *in vivo*
+
+      In brief, our animal experiments consist of two part. The first is to treat asthma mice with mcDNA mixture of mcDNA-GATA3-siRNA-3 and mcDNA-TSLP-siRNA-2,which both had been proved to be the optimal to knock down the target genes through *in vitro* screening, to see their therapeutic effects on asthma mice. We compared mcDNA group with positive control group and mock group in our selected targets' expression in mRNA and protein level, expression in type-2-inflammation-related IgE level, and tissue sections, which eventually prove that our therapy is promising in treating asthma. The second part of our animal experiment is the verification for safety. We wanted to prove that nasal inhalation of DNA circuit would take effect specifically on our desired tissue with precision and efficiency.
+
+      ## Our mcDNA can effectively reverse asthma criteria in mice
+
+      ### Asthma mice modeling and treatment strategy
+
+      6-8 week female BALB/c mice were intraperitoneally injected with 50mg OVA with 2mg aluminum hydroxide in 200ul PBS on day 0,14,28 for sensitization; and on days 42-44, 50mg OVA in 30ul PBS will be given by nasal inhalation for challenge. 
+
+
+
+      For treatment, we divided asthma mice into mcDNA group and Positive Control (PC) group. For the mcDNA group, we treated the mice in day 30-40 with mcDNA, which is equal mass mixture of mcDNA-GATA3-siRNA-3 and mcDNA-TSLP-siRNA-2 (Fig.5); the mcDNA was mixed with liposome LID with DNA : liposome ratio of 4:5, and administrated into mice by nasal inhalation. Total amount of mcDNA which was administrated into a mouse is 5mg/kg and there was a gap day between two treatment. For the Positive Control group, we treated them with equal volume of  PBS through nasal inhalation the same time mcDNA group got treated. Additionally, we use equal amount of unmodeled mice as mock group, which were treated with PBS whenever other two group got treated for asthma modeling or treatment.
+
+      ![Result_Fig15](../assets/image/Result_Fig15.png)
+
+    center Fig.5 The modeling and treatment strategy on mice
+    :markdown-it
+
+
+
+      ### GATA3 and TSLP mRNA were downregulated after mcDNA treatment
+
+      At day 45 we harvested the lung of mice and extracted the total RNA in lung tissues. Through RT-qPCR analysis, as shown in fig.6, we were confident that the mcDNA mixture of mcDNA-GATA3-siRNA-3 and mcDNA-TSLP-siRNA-2 could successfully downregulated our target genes with high efficiency. 
+
+      ![Result_Fig16](../assets/image/Result_Fig16.png)
+
+    center Fig. 6 The RT-qPCR result of GATA3 (Fig.16A) and TSLP (Fig.16B) mRNA expression in mice lung tissue
+    :markdown-it
+
+      ### GATA3 and TSLP protein were inhibited after mcDNA treatment
+
+      We also extracted total protein in mice lung tissue in order to analyze protein expression of GATA3 and TSLP using Western Blot. The result shows that both GATA3 and TSLP protein expression are inhibited after our mcDNA treatment.
+
+      ![Result_Fig17](../assets/image/Result_Fig17.png)
+
+    center Fig. 7 The Western Blot result of GATA3 (Fig.7A) and TSLP (Fig.7B) protein expression in mice lung tissue
+    :markdown-it
+
+      ### Type 2 inflammation was suppressed after mcDNA treatment
+
+      We harvested serum of mice when sacrificing the mice in day 45. We tested IgE expression in mice serum, which is typical in type 2 inflammation, using ELISA, and the result (Fig. 8) shows that there is a significant difference between mock and positive control, which proves that asthma mice has sever type 2 inflammation; while those treated with mcDNA has downregulated IgE expression in serum, which proves that our therapy can successfully inhibit type 2 inflammation in asthma mice through inhibiting expression of GATA3 and TSLP.
+
+      ![Result_Fig18](../assets/image/Result_Fig18.png)
+
+    center Fig. 8 ELISA result of expression of IgE in mice serum
+    :markdown-it
+
+      ### Mice lung tissue sections indicated asthma criteria was reversed after mcDNA treatment
+
+      Paraffin-embedded tissue sections and H&E staining were performed on mice lung tissues after sacrificing. The results are shown in Fig. 9. The bronchial smooth muscle indicated by the red arrow was significantly thickened in the Positive Control group but not in the mock group. The smooth muscle thickening phenotype in the mcDNA group was successfully reversed. Similarly, metaplasia of airway epithelial cells into club cells was observed in the asthma group, as is indicated by blue arrow, but not in the mock group or the mcDNA group. The result of tissue sections indicated that the asthma mice had been successfully cured by our mcDNA treatment.
+
+      ![Result_Fig19](../assets/image/Result_Fig19.png)
+
+      <center>Fig. 9 Tissue sections of mice lung tissue
+
+
+      ## Our administration strategy is precise and effective
+
+      To verify our therapy is safe and tissue specific, we conduct experiments on eGFP mice, which express eGFP green fluorescent protein in almost every somatic cells. We administrated mcDNA-eGFP-siRNA using the same protocol as we did on asthma mice. We mixed mcDNA with liposome LID with DNA : liposome ratio of 4:5 through nasal inhalation in 10 days with interval of 1day (5 times in total). The total mass of mcDNA we administrated was 5mg/kg. The result of tissue section (Fig. 10) reveals that our administration strategy can successfully target the lung tissue with precision and efficiency. 
+
+      ![Result_Fig20](../assets/image/Result_Fig20.png)
+
+      <center>Fig. 10 A. eGFP mice lung tissue sections in optical view (upper) and fluorescence view (under); B. Quantification of fluorescence of tissue section using ImageJ
+
+
+
+

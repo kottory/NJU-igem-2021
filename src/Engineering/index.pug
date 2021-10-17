@@ -7,10 +7,158 @@ block content
   
   #markdown-body
     :markdown-it
-      # Welcome to our Education Page!
+      # Engeering Success
 
-      **This page is under construction, and will be fully implemented soon**.
+      ## overview
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      In the previous investigation, we found that type 2 inflammatory response is common in the onset of asthma, so we chose two key roles: ILC-2 cells and TH2 cells. ILC-2 cells can be activated by TSLP secreted by lung epithelial cells, and can function as a accomplice in driving type 2 inflammation; TH2 cells produce many kinds of interleukins mediate inflammation, and GATA3 is the transcription factor for them. (Fig.1) We designed siRNAs for TSLP and GATA3, hoping to knock down the expression of these two targets and inhibit type 2 inflammation.
 
-      ![team logo](../assets/image/igem-nju.png)
+      ![](../assets/image/res_2.png)
+
+    center
+    :markdown-it
+
+
+
+      According to the design of the project, we finally designed two parts: **GATA3-siRNA-3(BBa_K37560003)** and **TSLP-siRNA-2(BBa_K37560006)**. Through the following series of experiments, we have proved that these two parts are effective and can be used for treatment, and finally achieve the effect we want to treat asthma caused by type 2 verification.
+
+
+
+      ## 1. Extraction of mcDNA
+
+      Based on our experimental design, we ordered the plasmids from GenScript.
+
+
+
+      We first selected strain ZYCY10P3S2T of *E. coli* as the chassis organism for mcDNA production. This particular *E. coli* strain has been reported to be very suitable for mcDNA production. After culturing *E. coli* ZYCY10P3S2T, we transferred the plasmid into *E. coli* by heat shock and coated it on LB plates containing kanamycin. On the second day, a suitable colony was selected for amplification and preservation.
+
+
+
+      We inoculated the bacteria into a special mcDNA induction medium, cultured *E. coli* to an appropriate concentration, and induced by L-arabinose to allow *E. coli* to loop out the desired mcDNA. The procedure is shown at Fig.2. mcDNA was purified and extracted with a plasmid extraction kit.
+
+      ![4](../assets/image/res_4.png)
+
+    center
+    :markdown-it
+
+
+
+
+      We then compared the mcDNA with the mother plasmid by agarose gel electrophoresis. The following figure (Fig.3) shows  the electrophoresis results. The left four lanes are mother plasmid of GATA3-si-1, TSLP-si-1, TSLP-si-2, TSLP-si-3, and the right lane is mcDNA of TSLP-si-1. According to the right marker we can say that, compared to the mother plasmid (around 7000b.p.), our mcDNA is incredibly small, which is around 3000b.p.
+
+      ![Result_Fig3](../assets/image/Result_Fig3.png)
+
+    center
+    :markdown-it
+
+
+
+      ## 2. Construction of fusion protein model
+
+      In order to demonstrate that our targeting peptides, **CKLF1C19-Lamp2b(BBa_K37560004)** and **RGD-Lamp2b(BBa_K37560008)**, can locate on exosome surface, we constructed our proteins structure using homology modeling with the help of I-TASSER. Further, we conduct alignments with our targeting peptides to the natural Lamp2b protein (Fig.4). The alignment results showed that our fusion proteins were almost the same as the natural Lamp2b regarding to the transmembrane domain, which promised that our targeting peptides can successfully anchored on the exosome memberane. 
+
+      ![Result_Fig6](../assets/image/Result_Fig6.png)
+
+    center
+    :markdown-it
+
+
+
+      ## 3. Protein-Protein docking between fusion proteins and receptor proteins
+
+      To further illustrate our targeting peptides features, CLUS PRO software was used to simulate the protein-protein docking process. Both the two targeting peptides results showed the feasibility of targeting affinity (Fig.5). For detail, please go to [Models](/Models)
+
+      ![Result_Fig7](../assets/image/Result_Fig7.png)
+
+    center
+    :markdown-it
+
+
+
+      ## 4. Verification of efficiency of GATA3-siRNAs
+
+      We designed the **mcDNA-CKLF1C19-Lamp2b-GATA3-siRNA(BBa_K37560009-BBa_K37560011)** to express GATA3-siRNA, hoping that GATA3-siRNA would knock down the GATA3 mRNA and thus downregulating GATA3 protein in the mouse T lymphoma cell line EL-4 cells. For the GATA3-siRNA, we designed 3 different sequence named GATA3-siRNA-1(BBa_K37560001), GATA3-siRNA-2(BBa_K37560002) and GATA3-siRNA-3(BBa_K37560003). Through *in vitro* screening, **we find the best** **siRNA(BBa_K37560003)** sequence and apply it in animal experiments afterwards.
+
+      ### GATA3-siRNA can be expressed in HEK293T cells
+
+      We transfected HEK293T cells with mcDNA-GATA3-siRNA-1/2/3. Through RT-qPCR, a significant amount of GATA3-siRNAs were detected in HEK293T cells, while no siRNA expression were detected in the negative control (NC) group transfected with cassette expressing scramble sequence (Fig.6).This result indicates that the design of our siRNA expressing cassettes could correctly express our desired siRNAs.
+
+      ![Result_Fig8](../assets/image/Result_Fig8.png)
+
+    center
+    :markdown-it
+
+      ### GATA3-siRNAs can knock down GATA3 mRNA
+
+      To evaluate the therapeutic effect of our designed mcDNA-GATA3-siRNAs，we electrotransfected EL-4 cells with mcDNA-GATA3-siRNA-1/2/3. 6h after the transfection, we used TPA and cAMP to induce the expression of GATA3 in EL-4 cells.[1] 24h after our transfection, we harvested cells and extracted mRNA in order to detect the expression of GATA3 mRNA through RT-qPCR. The result (Fig.7) showed that GATA3-siRNA-3 can significantly downregulate the GATA3 mRNA in EL-4 cells.
+
+      ![Result_Fig9](../assets/image/Result_Fig9.png)
+
+    center
+    :markdown-it
+
+      ### GATA3-siRNAs can knock down GATA3 protein
+
+      To further evaluate the therapeutic effect of our designed mcDNA-GATA3-siRNAs, we electrotransfected EL-4 cells with mcDNA-GATA3-siRNA-1/2/3. 6h after the transfection, we used TPA and cAMP to induce the expression of GATA3 in EL-4 cells. 36h after our transfection, we harvested cells and extracted protein in order to detect the expression of GATA3 protein through Western Blot. The result is showed in Fig.8A; through quantification of protein expression by ImageJ, we plotted the relative expression of GATA3 protein in Fig.8B. From the result, we can say that GATA3-siRNA-3 can significantly downregulate the GATA3 protein in EL-4 cells, which correspond to the mRNA level.
+
+      ![Result_Fig10](../assets/image/Result_Fig10.png)
+
+    center
+    :markdown-it
+
+
+
+      ## 5. Verification of efficiency of TSLP-siRNAs
+
+      Likewise, we designed the **mcDNA-RGD-Lamp2b-TSLP-siRNA(BBa_K37560012-BBa_K37560014)** to express TSLP-siRNA, hoping TSLP-siRNA would knock down the TSLP mRNA and thus downregulating TSLP protein in the mouse lung adenocarcinoma cell line LA-4 cells. For the TSLP-siRNA, we also designed 3 different sequence named TSLP-siRNA-1(BBa_K37560005), TSLP-siRNA-2(BBa_K37560006) and TSLP-siRNA-3(BBa_K37560007). Through *in vitro* screening, **we find the best siRNA(BBa_K37560006)** sequence and apply it in animal experiments afterwards.
+
+      ### TSLP siRNAs can be expressed in HEK293T cells
+
+      We transfected HEK293T cells with mcDNA-TSLP-siRNA-1/2/3. Through RT-qPCR, a significant amount of TSLP-siRNAs were detected in HEK293T cells, while no siRNA expression were detected in the negative control (NC) group transfected with cassette expressing scramble sequence (Fig.9).This result indicated that the design of our siRNA expressing cassettes could correctly express our desired siRNAs.
+
+      ![Result_Fig11](../assets/image/Result_Fig11.png)
+
+    center
+    :markdown-it
+
+      ### TSLP-siRNAs can knock down TSLP mRNA
+
+      To evaluate the therapeutic effect of our designed mcDNA-TSLP-siRNAs，we transfected LA-4 cells with mcDNA-TSLP-siRNA-1/2/3. 6h after the transfection, we used TPA to induce the expression of TSLP in LA-4 cells.[2] 24h after our transfection, we harvested cells and extracted mRNA in order to detect the expression of TSLP mRNA through RT-qPCR. The result (Fig.10) showed that TSLP-siRNA-2 can significantly downregulate the TSLP mRNA in LA-4 cells.
+
+      ![Result_Fig12](../assets/image/Result_Fig12.png)
+
+    center
+    :markdown-it
+
+      ### TSLP siRNA carried by exosomes interferes with the expression of TSLP mRNA in target cells
+
+      Further, we tried to find out whether TSLP-siRNAs can be encapsulated by the natural exosomes, and eventually play its role in knocking down the TSLP mRNA in LA-4 cells. Similarly, if we can prove that TSLP-siRNAs can be encapsulated by exosomes and targeted into LA-4 cells by targeting peptides on exosome membrane, so can GATA3-siRNAs.
+
+      We harvested exosomes from HEK293T cell medium after transfected with mcDNA-TSLP-siRNA-2 , and co-incubated  these exosomes with LA-4 cells (10^6 cells per well, 6h after inducement). After 36h co-incubation, LA-4 cells were harvested for total RNA extraction and subsequent RT-qPCR of TSLP mRNA.  The result (Fig.11) shows that through co-incubation, the exosomes from HEK293T, which has expressed TSLP-siRNA-2, can encapsulate TSLP-siRNA-2, and that help TSLP-siRNA-2 "enter" the LA-4 cells to degrade the expression of TSLP mRNA.
+
+      ![Result_Fig13](../assets/image/Result_Fig13.png)
+
+    center
+    :markdown-it
+
+
+
+      ## 6. Verification of safety on our mcDNAs and Plasmids
+
+      After our screening for the best siRNA sequence for **GATA3-siRNA(BBa_K37560003) and TSLP-siRNA(BBa_K37560007)**, we wanted to prove that the vector we use, namely mcDNA, is safe to be applied on animal or human, and that mcDNA outperform its mother plasmid. We used CCK8 Assay to verify the safety issue. We transfected HEK293T cell with mcDNA-TSLP-siRNA-2 and its mother plasmid pMC-TSLP-siRNA-2, using liposome lipofectamine 2000 with DNA; liposome ratio of 4:5. 8h after our transfection, when all the DNA was believed to had been uptaken by HEK293T cells, we diluted cells to 6000 cells/well and seeded into 96-well plates. The cells were further cultured with 2% DMEM. CCK8 reagent was added at 12, 24, 36 and 48h to detect the cytotoxicity effect on cells. CCK8 Assay result (Fig.12) shows that there is  no obvious cytotoxicity effect of mcDNA on cells, and that the mcDNA overall has fewer cytotoxicity than its mother plasmid.
+
+      ![Result_Fig14](../assets/image/Result_Fig14.png)
+
+    center
+    :markdown-it
+
+
+
+      **Reference**
+
+      [1]Cron RQ, Schubert LA, Lewis DB, Hughes CC. Consistent transient transfection of DNA into non-transformed human and murine T-lymphocytes. *J Immunol Methods*. 1997;205(2):145-150.
+
+      [2]Ganti KP, Mukherji A, Surjit M, Li M, Chambon P. Similarities and differences in the transcriptional control of expression of the mouse TSLP gene in skin epidermis and intestinal epithelium. *Proc Natl Acad Sci U S A*. 2017;114(6):E951-E960. 
+
+
+
