@@ -27,6 +27,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/c/ce/T--NJU-China--font--KaiseiOpti-Regular.ttf
     md5: f09b97244b0205ec2e313a88a13ee839
     upload_filename: T--NJU-China--font--KaiseiOpti-Regular.ttf
+  assets/font/Montserrat-Black.ttf:
+    link_URL: https://2021.igem.org/wiki/images/a/ab/T--NJU-China--font--Montserrat-Black.ttf
+    md5: 27e3649bab7c62fa21b8837c4842e40e
+    upload_filename: T--NJU-China--font--Montserrat-Black.ttf
   assets/font/Montserrat-Bold.ttf:
     link_URL: https://2021.igem.org/wiki/images/1/1a/T--NJU-China--font--Montserrat-Bold.ttf
     md5: ade91f473255991f410f61857696434b
@@ -243,6 +247,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/5/5b/T--NJU-China--image--Result_Fig9.png
     md5: 94289d1f7d97d05eb7b58e869203b38c
     upload_filename: T--NJU-China--image--Result_Fig9.png
+  assets/image/asthma.jpg:
+    link_URL: https://2021.igem.org/wiki/images/0/02/T--NJU-China--image--asthma.jpg
+    md5: 9e69b8d0187f8fb7b5bf66e5d3a2bdca
+    upload_filename: T--NJU-China--image--asthma.jpg
   assets/image/chenxi.jpg:
     link_URL: https://2021.igem.org/wiki/images/8/87/T--NJU-China--image--chenxi.jpg
     md5: 7e40414d293b4127156071758ce524d5
@@ -271,6 +279,14 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/e/ef/T--NJU-China--image--mashanchi.jpg
     md5: 4d17f061107c1552b22fec5e675dea0f
     upload_filename: T--NJU-China--image--mashanchi.jpg
+  assets/image/medicine-5185734.jpg:
+    link_URL: https://2021.igem.org/wiki/images/4/43/T--NJU-China--image--medicine-5185734.jpg
+    md5: 954d492906459dbee3959c30d0cef26c
+    upload_filename: T--NJU-China--image--medicine-5185734.jpg
+  assets/image/medicine.jpg:
+    link_URL: https://2021.igem.org/wiki/images/4/4a/T--NJU-China--image--medicine.jpg
+    md5: 954d492906459dbee3959c30d0cef26c
+    upload_filename: T--NJU-China--image--medicine.jpg
   assets/image/nijinhan.jpg:
     link_URL: https://2021.igem.org/wiki/images/b/ba/T--NJU-China--image--nijinhan.jpg
     md5: dbe3cc09ce15e77f7f06ffbebaed2d86
@@ -330,7 +346,10 @@ assets:
 css:
   style/global.css:
     link_URL: https://2021.igem.org/Template:NJU-China/style/globalCSS?action=raw&ctype=text/css
-    md5: 8e96edd532dce91025915154703d09e8
+    md5: d4ea3b58b75c71226745970beb6a5930
+  style/homepage.css:
+    link_URL: https://2021.igem.org/Template:NJU-China/style/homepageCSS?action=raw&ctype=text/css
+    md5: d41d8cd98f00b204e9800998ecf8427e
   style/igem.css:
     link_URL: https://2021.igem.org/Template:NJU-China/style/igemCSS?action=raw&ctype=text/css
     md5: 6983cc5183892594cf8fad00586b3fdf
@@ -340,91 +359,91 @@ css:
 html:
   Art/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Art
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Attributions/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Attributions
-    md5: bb1c5a7f2ba03ac65b3ef1eed0e56835
+    md5: c616e532d4b48f768b27b0e4c9a90b65
   Collaborations/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Collaborations
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Communication/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Communication
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Contribution/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Contribution
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Description/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Description
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Design/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Design
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Education/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Education
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Engineering/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Engineering
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Entrepreneurship/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Entrepreneurship
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Experiments/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Experiments
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Hardware/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Hardware
-    md5: fe4b91488e9801602961993eb321e4e7
+    md5: 7dc9fa5597512749eddf5c60fbbae11e
   Human_Practices/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Human_Practices
-    md5: cf8455fd97cd19210b169de0ddb4bc3d
+    md5: 72ab0a14813d60c54b475b0d4ffe7a11
   Implementation/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Implementation
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Inclusivity/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Inclusivity
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Measurement/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Measurement
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Model/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Model
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Notebook/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Notebook
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Partnership/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Partnership
-    md5: 0966d553b65e0c0300011dbfa2ce997a
+    md5: 5d0f4fe23f922da25c47ee8282cbafd2
   Parts/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Parts
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Plant/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Plant
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Proof_Of_Concept/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Proof_Of_Concept
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Results/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Results
-    md5: e2e83ef8d892227327041e5c198bb1e0
+    md5: c59f4ee0220aa2a447829bfa8b513e50
   Safety/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Safety
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Software/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Software
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Sustainable/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Sustainable
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   Team/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Team
-    md5: b1dbe33944a5c608b9c17dd6b8912e32
+    md5: 3eedfcfafc2c2b112180091bc189fa92
   index.html:
     link_URL: https://2021.igem.org/Team:NJU-China
-    md5: c4c334d87b72f8df99eed3b0476c9a11
+    md5: f7c3cd93711297786d04d54d4a7548d2
   template/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/template
-    md5: a2f9fb182ff190ecf6180d4fff68a078
+    md5: ed9f4d830aaef4f2b145b7afaf6eb652
 js:
   script/alpine.js:
     link_URL: https://2021.igem.org/Template:NJU-China/script/alpineJS?action=raw&ctype=text/javascript

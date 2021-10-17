@@ -37,6 +37,12 @@
   font-weight: 700;
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../assets/font/Montserrat-Black.ttf) format('truetype');
+  font-weight: 900;
+}
+
 #nju-footer h2 {
   @apply text-2xl font-bold pb-2 mb-0;
 }
