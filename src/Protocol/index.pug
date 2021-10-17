@@ -1,0 +1,252 @@
+extends ../template/page.pug
+
+block append head 
+  title Home
+
+block content
+  
+  #markdown-body
+    :markdown-it
+      # Protocol
+
+      ## 1、Thermal shock transformation of ZYCY10P3S2T E.coli
+
+      (1) Culturing ZYCY10P3S2T E.coli  in PSⅠ liquid until OD≥4;
+
+      (2) Mix 50μL culture liquid with 100ng plasmid (100ng/μL) and place on ice for 30min;
+
+      (3) 42℃ metal bath heat hit 90-120s;
+
+      (4) Place the mixture on the ice again for 5min;
+
+      (5) Add 400-500μL sterile antibody free medium, shake the shaker for 40min.
+
+
+
+      ## 2、Extraction of plasmid DNA from E.coli
+
+      Take 1L bacterial solution as an example：
+
+      (1) Collect E.coli by centrifugation, 8000rpm, 20min;
+
+      (2) Add 20ml Solution Ⅰ, 40ml SolutionⅡ and 30ml Solution Ⅲ in turn, and mix them well;
+
+      (3) Centrifuge at 8000rpm for 20min at 4℃, filtrate, and then supernatant into a new centrifuge bottle;
+
+      (4) Add 0.6 times volume of isopropyl alcohol  to precipitate overnight at -20℃;
+
+      (5) 8000rpm, 20min, centrifugation at 4℃;
+
+      (6) Discard the supernatant, add 10mL P1, 10ml P2 and 10ml P3 solution in turn, and mix well;
+
+      (7) Centrifuge at 8000rpm for 20min at 4℃ and filter supernatant into the new tube;
+
+      (8) Add 4ml ER to each tube and mix them upside down;
+
+      (9) Add 0.3 times the volume of isopropyl alcohol, mixed and precipitated at -20℃ for 1h;
+
+      (10) Add 2.5mL BL  solution to the adsorption column, centrifuge at 6000rpm for 1min;
+
+      (11) Continuously add the mixed liquid in (9) to the adsorption column, centrifuge, and discard the waste liquid;
+
+      (12) Add 10mL ED into the adsorption column, centrifuge at 6000rpm for 1min;
+
+      (13) Add 10ml PW to the adsorption column, and centrifuged at 6000rpm for 1min;
+
+      (14) Add 10ml PW to the adsorption column, and centrifuged at 6000rpm for 1min;
+
+      (15) Centrifuge at 7000rpm for 2min, put the adsorption column into a new collection tube, open the cover and dry it;
+
+      (16) Add 1mL ddH20 to the adsorption column at 65℃, stood for 5min, and centrifuged at 6000rpm for 2min;
+
+      (17) Add ddH20 in the collection tube to the adsorption column again, stood for 1min, then centrifuged at 7000rpm for 2min;
+
+      (18) Measure the concentration of plasmid in the collection tube and stored at -4℃.
+
+
+
+      ## 3、Cell transfection
+
+      Liposome mediated transfection
+
+      (1) Take a 12-well plate and add the cells to be transfected into the well one day in advance (10%DMEM);
+
+      (2) Discard the solution in the pore plate when the cell quantity is 1×10^6 / well;
+
+      (3) Solution 1: Mix 60μL Lipofectamine 2000 with 600μL OPti and let stand for 10min;
+
+      (4) solution 2: mix 2μg plasmid, 100μl opti, 100μl solution 1 and let stand for 20min;
+
+      (5) Add 100μL solution 2 and 900μL opti to each well;
+
+      (6) Inducer was added 2h later, and 2%DMEM was changed 6h later.
+
+      Electric transfection
+
+      (1) Electric parameters: C:950μF, V:250V, PC: 250OPM, Vol:800μL (containing 2×10^6 cells), Cuvette: 4mm, plasmid :10μg in each transfer cup;
+
+      (2) Shock twice and distribute evenly into two wells of 12-well plate, and add 600μ L 10%DMEM (Horse Serum);
+
+      RNA was collected 24h after culture, and proteins or exosomes were collected 36h after culture.
+
+
+
+      ## 4、Agarose gel electrophoresis
+
+      (1) Configure 30ml 1% agarose solution, heat and melt, add 30μL dye EB;
+
+      (2) Add 1μL loading buffer with 1μL plasmid in each well（also 1μL Marker）;
+
+      (3) 120V electrophoresis for 30min;
+
+      (4) Fluorescence chromogenic photography.
+
+      
+
+      ## 5、Detected cytotoxicity By CCK8 assay 
+
+      (1) Same as cell transfection (the transfected plasmid/liposome was considered to contain cytotoxicity), cells were considered to have fully absorbed the toxicity after 8h;
+
+      (2) Dispense 100μl of cell suspension(6000cells/well) in a 96-well plate;
+
+      (3) Incubate the plate for an appropriate length of time(e.g.,12,24,36,48 hours) in the incubator;
+
+      (4) Add 10μl of CCK-8 solution to each well of the plate;
+
+      (5) Measure the absorbance at 450nm using a microplate reader.
+
+
+
+      ## 6、RNA Detection by q-RT-PCR
+
+      ### Harvest total RNA from cells or tissues
+
+      from cells:
+
+      (1) Discard culture media from the culture dish; 
+      (2) Wash the cell with 2ml PBS once to make sure culture media is completely removed; 
+      (3) Add 1ml TRIzol reagent every 1 x 10^6 cells; 
+      (4) Pipette several times to permit complete dissociation of the cell. Transfer the liquid to a clean 1.5ml tube; 
+      (5) Add 0.2 mL of chloroform per 1 mL of TRIzol Reagent used for homogenization. Vortex vigorously to mix thoroughly. Place 2-3min at room temperature; 
+      (6) Centrifuge at 16000 x g at 2-8℃ for 15 minutes; 
+      (7) Remove the aqueous phase of the sample by angling the tube at 45° and pipetting the solution out to a clean 1.5ml tube. 
+      (8) Add 0.5ml of 100% isopropanol to the aqueous phase, per 1ml of TRIzol Reagent; 
+      (9) Incubation at -20℃ for at least one hour; 
+      (10) Centrifuge at 16000 x g at 2-8℃ for 20 minutes; 
+      (11) Remove the supernatant from the tube, leaving only the RNA pellet; 
+      (12) Wash the pellet, with 1ml of 75% ethanol per 1ml of TRIzol Reagent; 
+      (13) Vortex the sample briefly, then centrifuge the tube at at 16000 x g at 2-8℃ for 10 minutes; 
+      (14) Vacuum or air dry the RNA pellet for 5-10 minutes. 
+      (15) Resuspend the RNA pellet in RNase-free water; 
+      (16) Store at -20℃ for a short time or store at -70℃for long time preservation. 
+
+      from tissues:
+
+      (1)Take a piece of tissue, put it into EP tube, add 400μ L TRIzol and two steel balls, grind 60 seconds, 60HZ on the grinder;                                                                                                            (2)Add 600μl TRIzol;                                                                                                                                                                                                             (3)The remaining steps are the same as ‘From Cells’.
+
+      ### q-RT-PCR
+
+      (1) Reverse Transcription for siRNA by Vazyme
+      (a) Components: total volume 10μL 
+      10×RT Mix 1μL, Hiscript Enzyme Mix 1μL, Primer（2μM） 1μL, total RNA 1.5μg, RNase free ddH20 up to 10μL;
+      (b) Cycling Conditions: 
+      Step 1: 25℃, 5min
+      Step 2: 50℃, 15min  
+      step 3: 85℃, 5min                                                                                                                                                                                                            Step 4: 4℃, infinite
+
+      (2) Reverse Transcription for mRNA by Takara
+      Oligo d(T) 18 can be used as primers as mRNA 3’ prime end with a poly(A) tail;
+      (a) Components: total volume 10μL ;
+      5× AMV buffer 2μL, AMVase 0.5μL, dNTPs mixture(10mmol) 1μL, Oligo d(T) 18(50μM)(10×) 0.5μL RRI(40U/μl) 0.25μL, RNA 2μg, DEPC up to 10μL;
+      (b) Cycling Conditions: 
+      Step 1: 16℃, 15min
+      Step 2: 42℃, 60min  
+      step 3: 85℃, 5min                                                                                                                                                                                                              Step 4: 4℃, infinite
+
+      (3) qPCR for siRNA by Vazyme
+      (a) Components: total volume 20μL 
+      2×miRNA Universal SYBR qPCR Master Mix 10μL, Primer F(10μM) 0.4μL,  Primer R(10μM) 0.4μL, cDNA 1μL, ddH2O up to 20μL;
+      (b) Cycling Conditions: 
+      Step 1: 95℃, 5min 
+      Step 2: 95℃, 10s  
+      Step 3: 65℃, 30s (fluorescence detection) 
+      Step2-Step3, 40 cycles (variable, can be up to 45 cycles)                                                                                                                                     Step 4: 95℃, 10s 
+      Step 5: 65℃, 60s  
+      Step 6: 97℃, 1s (Continuous)  
+
+      (4) qPCR for mRNA
+      (a) Components: total volume 20μL 
+      10×buffer 2μL, dNTPs mixture (10mmol) 0.4μL, MgCl2 1.2μL, Taq 0.3μL, Sense primer (10mM) 0.5μL, Antisense primer (10mM) 0.5μL, dye 1μL, ddH2O 13.1μL, cDNA 1μL;
+      (b) Cycling Conditions: 
+      Step 1: 95℃, 5min 
+      Step 2: 95℃, 15s 
+      Step 3: 60℃, 30s 
+      Step 4: 72℃, 30s (fluorescence detection) 
+      Step2-Step4, 40 cycles (variable, can be up to 45 cycles) 
+
+      Data Analysis: The Comparative Ct Method (ΔΔCT Method) 
+      CT---cycles when the reaction reach the threshold, the relative expression level of each miRNA compares to endogenous Control can be described as 2-ΔCT, (ΔCT= CT sample- CT endogenous control). U6, a housekeeping gene, is usually used as endogenous Control for miRNA. And for mRNA,  just replace U6 with GAPDH. GAPDH, a housekeeping gene, is usually used as endogenous Control for mRNA.
+
+
+
+      ## 7、protein Detection by Western Blot
+
+      ### Harvest protein from cells or tissues
+
+      from cells:
+
+      (1) Adherent cell (e.g., LA-4): suck and discard culture medium, and add 80μl RIPA (pyrolysis fluid) into each whole. Suspend the adherent cells in the whole with a cell scraper. Wash once with 1ml absolute ethanol and three times with 1ml PBS Buffer between scrapes. Absorb the fluid into EP tubes after it is fully mixed;                                                                                                         (1*) Suspension cell (e.g., El-4): Transfer the culture medium into 1.5ml tubes. Centrifuge for 4 min at 1k rpm and discard the upper clear liquid (add PBS to wash if there are too many cells). Add 80μl RIPA into each tube;                                                                                                                    (2) Crack it with ultrasound and leave it alone on ice for 30 min;                                                                                                                   (3) Centrifuge for 20 min at 12000x g at 4°C. Absorb the upper clear liquid to a new tube and add 5x SDS to 1/4 of its volume;                                                                                                                        (4) Metal bath for 5 min at 99°C to make denature protein;                                                                                                                             (5) Measure the concentration of the protein with BCA method and preserve it at -80°C.
+
+      from tissues:
+
+      (1) Cut off tissue pieces, about the size of mung beans, and add 80-100μL of RIPA according to the specific tissue size.                                                                                                                                 (2) The remaining steps are the same as ‘From Cells’.
+
+      ### Western Blot
+
+      (1) Prepare Solutions; 
+      
+      (2) Gel Electrophoresis; 
+      (a) Load protein and molecular weight marker; 
+      (b) Add running buffer; 
+      (c) Electrify: set the voltage at 80V before the sample reach the dividing line between stacking gel and resolving gel, switch to 120V until the blue stain reach the buttom line; 
+      (3) Blotting 
+      I. Transfer 
+      (a) Carefully cut the gel; 
+      (b) Assemble the transfer cassette;
+      (c) Install the cassette and electrify to transfer the protein to PVDF; 
+      II. Chemiluminescene 
+      (a) Blocking: 5% skimmed milk incubate for 1h; 
+      (b) Incubate with diluted primary antibody;
+      (c) Wash membrane: TBST 15min *4; 
+      (d) Incubate with diluted secondary antibody; 
+      (e) Wash membrane: TBST 15min *4; 
+      (f) Add Chemiluminescene substrate;
+      (g) Exposure.
+
+
+
+      ## 8、Incubating cells with exosomes
+
+      Exosomes (100 μg) loaded with siRNAs were incubated with LA-4 cells (10^6 cells). After 24h incubation, the recipient cells were collected for total RNA extraction and subsequent quantitative RT-PCR analysis of siRNA and mRNA, and for total protein isolation and subsequent western blotting analysis of protein.
+
+
+
+      ## 9、Modeling and administration of asthma mice
+
+      Our modeling strategy is that as followed: female BALB/c mice will be intraperitoneally injected with 50mg OVA with 2mg aluminum hydroxide in 200ul PBS on day 0,14,28; mcDNA in liposome will be given every two days on days 30-40 by nasal inhalation; finally, 50mg gOVA in 30ul PBS will be given on days 42-44 by nasal inhalation.
+
+
+
+      ## 10、IgE ELISA
+
+      (1) Before use, mix all reagents thoroughly; 
+      (2) Add Cytokine standard diluted 100μL/well to the standard well, add sample 100μL/well to the sample well, add Dilution buffer R 100μL/well to the blank control well, cover with sealing plate membrane, incubate at 37℃ for 90min;
+      (3) Discard liquid from the well, add 1×Washing buffer 300μL/well; After staying for 1min, discard the liquid in the hole, and repeat 4 times;
+      (4) Add Biotinylated antibody working solution 100μL/well, cover with sealing plate membrane, and incubate at 37℃ for 60min;
+      (5) Repeat step (3);
+      (6) Add streptavidin-HRP working solution 100μL/well, cover with sealing plate membrane, incubate at 37℃ for 30min;
+      (7) Repeat step (3);
+      (8) Add TMB 100μL/well and incubate at 37℃ for 5-30min under dark conditions until the color of the well turns dark blue;
+      (9) Add Stop solution 100μL/well quickly to Stop the reaction;
+      (10) Read the value at 450nm 10min after termination.
+
