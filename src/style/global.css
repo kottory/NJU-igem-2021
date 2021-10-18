@@ -84,3 +84,28 @@
 #nju-main-body #markdown-body img {
   @apply mx-auto;
 }
+
+/* brief info */
+#nju-main-content .nju-brief-info {
+  @apply bg-gray-50 shadow-xl p-8  mb-8 w-1/2 h-auto;
+}
+
+#nju-main-body #nju-main-content #markdown-body .nju-brief-info .nju-info-card-name {
+  @apply md:text-center text-cyan-600;
+}
+
+#nju-main-body #nju-main-content #markdown-body .nju-brief-info img.nju-info-card-img {
+  @apply w-32 h-32  mx-auto  rounded-full;
+}
+
+#nju-main-body #nju-main-content #markdown-body .nju-brief-info .nju-info-card-attri {
+  @apply  text-lg items-center;
+}
+
+#nju-main-body #nju-main-content #markdown-body .nju-brief-info .nju-info-card-description {
+  @apply pt-6 text-center space-y-4;
+}
+
+#nju-main-body #nju-main-content #markdown-body .nju-brief-info .nju-info-card-title {
+  @apply text-gray-500;
+}
