@@ -6,7 +6,7 @@
   @apply text-teal-600 underline;
 }
 
-#nju-main-body #markdown-body p, #nju-main-body #markdown-body center {
+#nju-main-body #markdown-body p {
   @apply text-gray-800 pb-6 leading-relaxed text-lg;
 }
 
@@ -44,4 +44,8 @@
 
 #markdown-body td {
   @apply px-4 py-6;
+}
+
+#nju-main-body #markdown-body center {
+  @apply text-gray-500 pb-6 leading-relaxed text-base;
 }
