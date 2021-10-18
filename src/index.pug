@@ -14,10 +14,12 @@ block content
 
     div(class="mt-10 border-t-2 border-dotted border-teal-400")
       div(class="my-10 text-4xl font-bold uppercase text-center") inspirations
-      div(class="flex flex-col space-y-5")
-        div(class="flex flex-row")
-          img(src="./assets/image/asthma.jpg" class="w-48")
-          div(class="text-gray-600 my-auto pl-6 space-y-6") 
+      div(class="flex flex-col space-y-5 text-gray-500")
+        div(class="text-xl") Nanjing is a city with alternating seasons. When the season changes, it is easy to cause some respiratory diseases. Asthma is one of them.
+        img(src="./assets/image/cough.jpg" class="self-center")
+        div(class="flex flex-row pt-20")
+          img(src="./assets/image/coronavirus.jpg" class="w-56")
+          div(class="my-auto pl-6 space-y-6 text-lg") 
             div Asthma can be triggered when people are exposed to allergens, or when they are overworked, or when they catch a cold.
             div Asthma influence <b>334 million</b> people in the world. In China, the average prevalence of asthma has been on the rise in recent years, but The diagnosis and treatment rate is still at a <b>very low level</b>.
 
@@ -32,15 +34,25 @@ block content
       img(src="./assets/image/medicine.jpg" class="py-5 mx-auto")
 
 
-      div(class="pt-5 text-center text-2xl") Drugs most commonly used are <b>still</b> using glucocorticoids directly to inhibit the immune response. Drug problems cannot be controlled for <b>a long time</b>.
+      div(class="pt-5 text-center text-2xl text-yellow-800") Drugs most commonly used are <b>still</b> using glucocorticoids directly to inhibit the immune response. Drug problems cannot be controlled for <b>a long time</b>.
 
     div(class="mt-10 border-t-2 border-dotted border-teal-400")
-      div(class="pt-10 text-center text-4xl font-bold") So,
-
-      div(class="pt-10 text-center text-4xl font-bold") Let's introducing...
-
-      div(class="w-1/2 h-40 border-r-8 border-black border-dotted my-10")
-
-      div(class="pt-10 text-center text-4xl font-bold") Our Solution!
-
-      div FIXME description to be done.
+      img(src="./assets/image/igem-nju.png" class="self-center mx-auto")
+      div(class="text-2xl text-center text-teal-900 pb-10") Therefore, <b>NJU-China</b> hope to use the tools of synthetic biology to develop a therapeutic model of self-administration, which can treat asthma more accurately and easily.
+      div(class="text-center pt-20 pb-10 text-3xl font-bold") See More Info Above:
+      div(class="flex flex-row justify-around")
+        a(href="/Human_Practices")
+          div(class="transition duration-500 hover:-translate-y-1 hover:scale-110 ease-in-out rounded shadow-md border-teal-400 hover:border-teal-700 text-teal-500 hover:text-teal-700 text-xl border-2 p-4 pb-8")
+            div(class="w-36 mx-auto")
+              include svgs/globe.svg
+            div Human Practices
+        a(href="/Team")
+          div(class="transition duration-500 hover:-translate-y-1 hover:scale-110 ease-in-out rounded shadow-md border-teal-400 hover:border-teal-700 text-teal-500 hover:text-teal-700 text-xl border-2 p-4 pb-8")
+            div(class="w-36 mx-auto")
+              include svgs/user-group.svg
+            div(class="text-center") Team
+        a(href="/Implementation")
+          div(class="transition duration-500 hover:-translate-y-1 hover:scale-110 ease-in-out rounded shadow-md border-teal-400 hover:border-teal-700 text-teal-500 hover:text-teal-700 text-xl border-2 p-4 pb-8")
+            div(class="w-36 mx-auto")
+              include svgs/beaker.svg
+            div(class="text-center") Implementation
