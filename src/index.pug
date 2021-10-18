@@ -6,22 +6,27 @@ block append head
 block content
   
   #homepage-body
-    div(class="text-center font-black text-6xl bg-clip-text text-transparent bg-gradient-to-br from-teal-400 to-blue-500")
-      div A More Accurately and Easily Way for Treatment of Asthma.
 
-    div(class="text-center text-gray-400 p-10")
-      div by using <b>Synthetic Biology</b> tools.
-
-    div(class="mt-10 border-t-2 border-dotted border-teal-400")
+    div(class="mt-10")
       div(class="my-10 text-4xl font-bold uppercase text-center") inspirations
       div(class="flex flex-col space-y-5 text-gray-500")
         div(class="text-xl") Nanjing is a city with alternating seasons. When the season changes, it is easy to cause some respiratory diseases. Asthma is one of them.
-        img(src="./assets/image/cough.jpg" class="self-center")
-        div(class="flex flex-row pt-20")
-          img(src="./assets/image/coronavirus.jpg" class="w-56")
+        img(src="./assets/image/respiratory-protection-mask.jpg" class="self-center")
+
+        div(class="w-1/2 h-40 border-r-2 border-teal-400 border-dotted my-5")
+
+        div(class="flex flex-row pt-10")
+          img(src="./assets/image/causes.png" class="w-72")
           div(class="my-auto pl-6 space-y-6 text-lg") 
             div Asthma can be triggered when people are exposed to allergens, or when they are overworked, or when they catch a cold.
+        
+        div(class="w-1/2 h-32 border-r-2 border-teal-600 border-dotted my-5")
+        
+        div(class="flex flex-row pt-10")
+          div(class="my-auto pr-6 space-y-6 text-lg")             
             div Asthma influence <b>334 million</b> people in the world. In China, the average prevalence of asthma has been on the rise in recent years, but The diagnosis and treatment rate is still at a <b>very low level</b>.
+          img(src="./assets/image/coronavirus.jpg" class="w-64")
+
 
       div(class="w-1/2 h-40 border-r-2 border-yellow-400 border-dotted my-5")
 
@@ -34,25 +39,36 @@ block content
       img(src="./assets/image/medicine.jpg" class="py-5 mx-auto")
 
 
-      div(class="pt-5 text-center text-2xl text-yellow-800") Drugs most commonly used are <b>still</b> using glucocorticoids directly to inhibit the immune response. Drug problems cannot be controlled for <b>a long time</b>.
+      div(class="pt-5 text-center text-2xl text-yellow-800") At present, the drugs used cannot meet the needs of long-term treatment. Medication is also troublesome. Patients need new drugs.
 
-    div(class="mt-10 border-t-2 border-dotted border-teal-400")
-      img(src="./assets/image/igem-nju.png" class="self-center mx-auto")
-      div(class="text-2xl text-center text-teal-900 pb-10") Therefore, <b>NJU-China</b> hope to use the tools of synthetic biology to develop a therapeutic model of self-administration, which can treat asthma more accurately and easily.
+    div(class="w-1/2 h-40 border-r-2 border-blue-300 border-dotted my-10")
+    div(class="")
+      div(class="flex flex-row pb-10")
+        img(src="./assets/image/igem-nju.png" class="w-64")
+        div(class="my-auto text-2xl text-center text-teal-900") Therefore, <b>NJU-China</b> hope to use the tools of synthetic biology to develop a therapeutic model of self-administration, which can treat asthma more accurately and easily.
+      //- img(src="./assets/image/solutionindex.png" class="mx-auto")
+
+    div(class="mt-10 border-t-2 border-dotted text-md border-teal-400")
       div(class="text-center pt-20 pb-10 text-3xl font-bold") See More Info Above:
-      div(class="flex flex-row justify-around")
+      div(class="flex flex-row justify-around space-x-5")
         a(href="/Human_Practices")
-          div(class="transition duration-500 hover:-translate-y-1 hover:scale-110 ease-in-out rounded shadow-md border-teal-400 hover:border-teal-700 text-teal-500 hover:text-teal-700 text-xl border-2 p-4 pb-8")
-            div(class="w-36 mx-auto")
+          div(class="w-48 transition duration-500 hover:-translate-y-1 hover:scale-110 ease-in-out rounded shadow-md border-teal-400 hover:border-teal-700 text-teal-500 hover:text-teal-700  border-2 p-4 pb-8")
+            div(class="w-24 mx-auto")
               include svgs/globe.svg
-            div Human Practices
+            div(class="mx-auto") Human Practices
         a(href="/Team")
-          div(class="transition duration-500 hover:-translate-y-1 hover:scale-110 ease-in-out rounded shadow-md border-teal-400 hover:border-teal-700 text-teal-500 hover:text-teal-700 text-xl border-2 p-4 pb-8")
-            div(class="w-36 mx-auto")
+          div(class="w-48 transition duration-500 hover:-translate-y-1 hover:scale-110 ease-in-out rounded shadow-md border-teal-400 hover:border-teal-700 text-teal-500 hover:text-teal-700 border-2 p-4 pb-8")
+            div(class="w-24 mx-auto")
               include svgs/user-group.svg
             div(class="text-center") Team
+
         a(href="/Implementation")
-          div(class="transition duration-500 hover:-translate-y-1 hover:scale-110 ease-in-out rounded shadow-md border-teal-400 hover:border-teal-700 text-teal-500 hover:text-teal-700 text-xl border-2 p-4 pb-8")
-            div(class="w-36 mx-auto")
+          div(class="w-48 transition duration-500 hover:-translate-y-1 hover:scale-110 ease-in-out rounded shadow-md border-teal-400 hover:border-teal-700 text-teal-500 hover:text-teal-700 border-2 p-4 pb-8")
+            div(class="w-24 mx-auto")
               include svgs/beaker.svg
             div(class="text-center") Implementation
+        a(href="/Description")
+          div(class="w-48 transition duration-500 hover:-translate-y-1 hover:scale-110 ease-in-out rounded shadow-md border-teal-400 hover:border-teal-700 text-teal-500 hover:text-teal-700 border-2 p-4 pb-8")
+            div(class="w-24 mx-auto")
+              include svgs/annotation.svg
+            div(class="text-center") Description

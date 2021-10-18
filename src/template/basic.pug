@@ -9,8 +9,8 @@ html
     
     block head
   body 
-    div#nju-main-body(class="flex flex-col min-h-screen")
-      nav(class="nju-navbar")
+    div#nju-main-body(class="flex-col min-h-screen")
+      nav#nju-nav-scroll(class="-top-20 fixed nju-navbar opacity-80 py-2")
         a(href="/" class="font-bold text-xl py-1.5 tracking-normal") NJU-China 2021
 
         div(class="flex flex-row flex-wrap space-x-5 text-base")
@@ -63,6 +63,8 @@ html
           a(class="nju-navbar-item" href="/Achivements") Achivements
           a(class="nju-navbar-item" href="/Parts") Parts
 
+      block hero
+
       main#nju-main-content(class="flex-grow container mx-auto w-10/12 md:max-w-screen-md mt-20 mb-12")
         block content
 
@@ -82,3 +84,4 @@ html
 
   //- script(src="script/alpine.js")
   block script
+  

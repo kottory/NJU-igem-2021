@@ -109,3 +109,7 @@
 #nju-main-body #nju-main-content #markdown-body .nju-brief-info .nju-info-card-title {
   @apply text-gray-500;
 }
+
+#nju-hero {
+  background-image: url(../assets/image/hero.jpg);
+}
