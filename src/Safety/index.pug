@@ -7,10 +7,33 @@ block content
   
   #markdown-body
     :markdown-it
-      # Welcome to our Education Page!
+      ## Overview
 
-      **This page is under construction, and will be fully implemented soon**.
+      Our therapy consists of drug delivery in mice lung through nasal inhalation, so it is quit crucial to determine the cytotoxicity of what we would deliver in mice, namely mcDNA and liposome. So we conducted safety verification experiments in vitro. Apart from the verification of the drug we would deliver, we also conducted verification of nasal inhalation, in hope to prove the tissue specificity of our methodology.
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      ## 1. Safety verification for mcDNA
 
-      ![team logo](../assets/image/igem-nju.png)
+      We used CCK8 Assay to reveal the cytotoxicity of our mcDNA which would be administrated in mice lung. We specially compare the cytotoxicity of mcDNA with its mother plasmid. (To see more experiment results of mcDNA and mother plasmid, please go to [Results](/Results)) We transfected DNA circuit in mouse airway epithelial cell line 16HBE cells, and tested cytotoxicity in 12h, 24h, 36h and 48h. The result of CCK8 Assay is shown in Fig.1, and we see no significant difference between mcDNA with mock group, while for the mother plasmid, there is cytotoxicity observed in 16HBE cells. As a result, the mcDNA we selected is safer than the existing plasmid, and is safe to be administrated *in vivo*.
+
+      ![Safety_Fig1](../assets/image/Safety_Fig1.png)
+
+
+
+    center Fig. 1 CCK8 Assay for mcDNA and its mother plasmid using CCK8 Assay. mcDNA outperforms its mother plasmid.
+    :markdown-it
+      ## 2. Safety verification for liposomes
+
+      Since we intended to screen the optimal liposome for our therapy, so safety was obviously an important dimension for us to consider. So we conducted CCK8 Assay for liposome screening. We transfected mouse airway epithelial cell line 16HBE cells with four liposomes and their corresponding optimal DNA : liposome ratio. The cargo DNA  we used was pcDNA3.1-GFP. CCK8 reagent was added at 12, 24, 36 and 48h to detect the cytotoxicity. The result (Fig.2) shows that the optimal liposome we selected afterwards, LID, has no toxicity compared with the mock group, but has outstanding safety performance compared to the commonly used liposome lipofectamine 2000. As a result, the liposome we selected, namely LID, is certainly safe to use in our therapy.
+
+      ![Safety_Fig2](../assets/image/Safety_Fig2.png)
+
+    center Fig.2 CCK8 Assay for liposome screening. LID has no obvious cytotoxicity and outperforms Lipofectamine 2000.
+    :markdown-it
+      ## 3. Safety verification for nasal inhalation
+
+      In order to verify that nasal inhalation will do no harm to the mouse lung tissue and that the effect will only take in our desired tissue, we administrated mcDNA-eGFP-siRNA carried by liposome LID with DNA : liposome ratio of 4:5 through nasal inhalation. The total mass of mcDNA we delivered was 5mg/kg per mice and we administrated 5 times in total, with interval 1 day between two administration. We sacrificed mice and harvested the lung tissue next day after our administration. Tissue sections result is shown in Fig.3. Through tissue section we can see there is no histological changes in lung tissue of mcDNA-eGFP-siRNA group compared with mock group, indicating there is no obvious harm to the lung tissue.
+
+      ![Safety_Fig3](../assets/image/Safety_Fig3.png)
+
+    center Fig.3 A. eGFP mice lung tissue sections in optical view (upper) and fluorescence view (under); B. Quantification of fluorescence of tissue section using ImageJ
+    :markdown-it
