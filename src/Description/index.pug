@@ -7,10 +7,97 @@ block content
   
   #markdown-body
     :markdown-it
-      # Welcome to our Education Page!
+      # Overview
 
-      **This page is under construction, and will be fully implemented soon**.
+      Asthma is one of the most common chronic respiratory diseases in the world. It was estimated that there was 334 million people suffering from asthma in 2010 [1], and the number is increasing. Asthma features in tight chest, repeat coughing and wheezing, causing substantial disability, impaired quality of life, and even death. Despite a worldwide reduction in asthma mortality in adults and children over the past 25 years, which is largely attributable to increased use of inhaled corticosteroids, a wide global disparity remains in years of life lost because of asthma (Fig.1). [2] This year, NJU-CHINA focused on the treatment of asthma, hoping to create a safe, convenient and long-term treatment for asthma patients. Based on the method of self-assembled siRNA *in vivo* proposed by NJU-China in iGEM 2020, we creatively applied it in the treatment of asthma. This new application of self-assembled siRNA *in vivo* therapy is very promising, and we have demonstrated through a series of experiments *in vitro* and *in vivo* that our therapy can effectively inhibit our chosen targets and ultimately reverse the symptoms of asthma.
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      ![Description_Fig1](../assets/image/Description_Fig1.jpg)
 
-      ![team logo](../assets/image/igem-nju.png)
+    center Fig.1 Years of life lost due to asthma between 1990 and 2016, all ages, by sociodemographic index, in 195 countries[2]
+    :markdown-it
+
+      # 1. Type 2 inflammation in asthma
+
+      Asthma is a heterogeneous disease, however, type 2 inflammatory asthma accounts for more than half of asthma patients, whose airway has significant characteristics of type 2 inflammatory response, including the massive release of cytokines such as IL-4 and IL-5, eosinophil infiltration, B cells activation and massive secretion of IgE, etc.[2] These will promote the remodeling of airway in airway smooth muscle hypertrophy and/or hypertrophy and Globet cell hyperplasia and/or metaplasia, etc. Eventually, asthma will develop or progress.[3] (Fig. 2)
+
+      We know that type 2 inflammation is mediated primarily by Th2 cells in the situation of allergic reaction. Activated Th2 cells secrete IL-4, IL-5, IL-13, etc. which mediate eosinophil activation, B cell isotype switching and IgE synthesis, and a series of downstream reactions. So Th2 is at the center of the whole type 2 inflammatory response. Fortunately, we found that expression of the transcription factor **GATA3** is essential for Th2 cell maintenance and activation.[4] Its downstream mediates the expression of a series of cytokines related to type 2 inflammatory response, including the previously mentioned IL-4, IL-5, IL-13, etc.
+
+      In addition to Th2 cells, ILC-2 cells are also involved in the development and progression of type 2 inflammation in asthma. ILC-2 cells also produce cytokines related to type 2 inflammation, such as IL-4, IL-5 and IL-9, which promote the development and progression of asthma. Interestingly, ILC-2 cells are also under the control of the transcription factors GATA3 as the Th2 cells do. [5]In addition, we also found that epithelial-cell-derived **TSLP** can effectively activate ILC-2 cells and play a critical role in the progression of asthma.[6]
+
+      ![Description_Fig2](../assets/image/Description_Fig2.png)
+
+    center Fig.2 Type 2 inflammation in asthma, critical cells and cytokines are shown in the graph.
+    :markdown-it
+
+      # 2. Current drug and therapy on asthma
+
+      It is a pity that there is no cure for asthma. Current drug to control the symptom of asthma is commonly β-agonist and glucocorticoid.[7] Depending on the severity, these drugs will be administrated to patient with various dose or the mode of administration (inhalation or oral). But it's worth noting that these drugs only relieve symptoms for a period of time. 
+
+      β-agonist smooths bronchial smooth muscle by activating β-2 receptor on the bronchial smooth muscle, thereby expanding the trachea and preventing bronchospasm or asphyxia caused by bronchoconstriction in asthma patients. So β-agonist is very effective in acute attacks of asthma. [7]
+
+      While glucocorticoid has been considered the most effective treatment for suppressing inflammation and is therefore widely used in the treatment of asthma. But with the use of glucocorticoid, we found that some patients developed glucocorticoid resistance. In addition, some follow-up investigations as well as our Human Practice findings showed that patients were unable to effectively control their inflammatory response and asthma due to poor compliance with glucocorticoids, which required repeated medication. Moreover, repetitive use of glucocorticoid has unignorable effect such as obesity, osteoporosis [8] [9]
+
+      Moreover, there lack the targeting therapy in asthma. To be specific, current drugs only control the symptoms of asthma, rather than targeting the cause of this disease. Even though drugs like Omalizumab (IgE mab) are appearing on the market, targeted drugs are severely lacking in asthma as a whole. In addition, existing mab drugs have obvious disadvantages. One is that they are extremely expensive, which is unaffordable for the majority of asthma patients; the other is that these mab drugs cannot target intracellular target proteins, such as the Th2 intracellular transcription factor **GATA3**. Therefore, based on existing asthma drugs and therapies, we attempt to use RNAi therapy to solve the above dilemma.
+
+      # 3. Our targeted therapy of asthma by self-assembled small interfering RNA *in vivo*
+
+      This year, NJU-China focused on treating asthma by controlling type 2 inflammation in it. The two critical targets we selected were Th2 cell transcription factor GATA3 and epithelial-derived TSLP, in order to inhibit the two important promoters of type 2 inflammation, namely Th2 cells and ILC-2 cells. Based on the existing experience of self-assembled small interfering RNA *in vivo* therapy in 3M laboratory of Nanjing University, we plan to use *in vivo* self-assembled siRNA delivery system as our drug synthesis and delivery system[10]. The system perfectly takes advantage of the fact that almost all cells in eukaryotes naturally produce large numbers of exosomes. These exosomes transport cargo and mediate signal communication between cells. The basic idea of  *in vivo* self-assembled siRNA delivery system is to transfect DNA circuits into somatic cells, which will enable them to produce siRNAs, which will be released into the microenvironment as exosomes are secreted autonomously by somatic cells. By predesigned targeting peptides on exosome membranes (also expressed in somatic cells via DNA circuits) to the desired cells, the siRNAs can enter the cells and knocking down the expression of the target proteins.
+
+      ![Description_Fig3](../assets/image/Description_Fig3.png)
+
+    center Fig.3 Illustration of our design of targeted therapy of asthma by self-assembled small interfering RNA *in vivo*
+    :markdown-it
+
+      However, this year we made some major changes to the original *in vivo* self-assembling small interfering RNA delivery system, making it more suitable as a gene therapy for asthma. For this purpose, we extensively interviewed professors, doctors and experts in related fields, and finally improved into our current design. For detailed records, please go to [Human Practice](/Human_Practices).
+
+      We planned to administrate our DNA circuits to asthma patients by nebulization rather than intravenous injection, for it's simpler, easier to operate, and more economical. Most importantly, nebulization allows DNA circuits to be significantly enriched in lung tissue, rather than circulating through the bloodstream like intravenous injection will do, which poses safety and ethical risks. 
+
+      In addition, we considered that asthma patients are very sensitive to allergens, such as smoke or viruses, so compared with commonly used gene therapy vectors, such as AAV or lentivirus, we prefered to use safer liposome to wrap and deliver our DNA circuits. 
+
+      Finally, we also improved the gene vector. Because we wanted to reduce the immune response caused by the immunogenicity of the DNA circuits itself, and we wanted to prolong the expression time of the DNA circuits in the body as well. So we chose minicircle DNA (mcDNA) as our gene vector. mcDNA is a small loop DNA that devoid of the plasmid bacterial backbone and has lower immunogenicity and longer expression time *in vivo* than ordinary plasmid.[11] According to unpublished data from our laboratory (Fig. 4), there was a significant difference in the duration of siRNA expressed by mcDNA and its parent plasmid in serum after a single intravenous injection, indicating that mcDNA was significantly superior to the parent plasmid in the duration of effect.
+
+
+
+
+
+      ![Description_Fig4](../assets/image/Description_Fig4.png)
+
+    center Fig.4 The duration experiment of mcDNA versus its mother plasmid, data not published. Equal mass of DNA circuits expressing EGFP-siRNA was intravenously injected in mice and siRNA expression in serum was tested in day 1, 4 and 10. The result shows tremendous advantage of mcDNA in duration of effect compared with its mother plasmid.
+    :markdown-it
+
+      To sum up, our project design is as follows. We designed two DNA circuits based on two targets. The DNA circuit targeting GATA3 in Th2 cells expressed Th2-targeting protein CKLF1C19-lamp2b and GATA3-siRNA; The DNA circuit targeting TSLP in lung epithelial cell would express epithelial targeting peptides RGD-Lamp2b and TSLP-siRNA. We intend to wrap our DNA circuits in liposomes and deliver them to asthma mice lung epithelial cells through nasal inhalation. It is expected that the DNA circuits will be successfully transfected into mouse lung epithelial cells, where the DNA circuits will express relevant targeting proteins and siRNAs. Then these siRNAs will be wrapped in exosomes secreted by cells afterwards, and target to the corresponding cells with the help of the targeting proteins, and finally knock down the corresponding mRNA expression in order to achieve inhibitory effect on the target genes, which will eventually control asthma symptoms.
+
+      # 4. Our experiment results show promising future for our therapy
+
+      To test our concept, we conducted a series of experiments *in vivo* and *in vitro* and collected comprehensive data to verify from the effectiveness to the safety of our project. Fig.5 shows part of our experiment planning *in vitro* to demonstrate the feasibility of our exosome delivery system. For detailed information, please go to [Results](/Results).
+
+      In our animal experiments, we successfully demonstrated that our therapy inhibited the expression of the both targets, successfully inhibited the type 2 inflammation downstream of the targets, and ultimately completely controlled the pathological symptoms of asthma at the histological level. So we are very proud to say that our therapy is very effective in controlling asthma symptoms.
+
+      ![Description_Fig5](../assets/image/Description_Fig5.png)
+
+    center Fig.5 Illustration of our experiment of exosome co-incubation (Left) to verify that our siRNA can be successfully encapsulated in exosomes and take effect. This experiment is to mimic what will happen in mice lung tissue (Right).
+    :markdown-it
+
+      Reference
+
+      [1]T Vos, AD Flaxman, M Naghavi, et al. Years lived with disability (YLDs) for 1160 sequelae of 289 diseases and injuries 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010. Lancet, 380 (2012), pp. 2163-2196
+
+      [2]Papi A, Brightling C, Pedersen SE, Reddel HK. Asthma. *Lancet*. 2018;391(10122):783-800. 
+
+      [3]Banno A, Reddy AT, Lakshmi SP, Reddy RC. Bidirectional interaction of airway epithelial remodeling and inflammation in asthma. *Clin Sci (Lond)*. 2020;134(9):1063-1079.
+
+      [4]Nakayama T, Hirahara K, Onodera A, et al. Th2 Cells in Health and Disease. *Annu Rev Immunol*. 2017;35:53-84. 
+
+      [5]Boonpiyathad T, Sözener ZC, Satitsuksanoa P, Akdis CA. Immunologic mechanisms in asthma. *Semin Immunol*. 2019;46:101333. 
+
+      [6]Gauvreau GM, Sehmi R, Ambrose CS, Griffiths JM. Thymic stromal lymphopoietin: its role and potential as a therapeutic target in asthma. *Expert Opin Ther Targets*. 2020;24(8):777-792.
+
+      [7]Ramsahai JM, Hansbro PM, Wark PAB. Mechanisms and Management of Asthma Exacerbations. *Am J Respir Crit Care Med*. 2019;199(4):423-432. 
+
+      [8]Barnes PJ, Adcock IM. Glucocorticoid resistance in inflammatory diseases. *Lancet*. 2009;373(9678):1905-1917. 
+
+      [9]Horne R. Compliance, adherence, and concordance: implications for asthma treatment. *Chest*. 2006;130(1 Suppl):65S-72S. 
+
+      [10]Fu Z, Zhang X, Zhou X, et al. In vivo self-assembled small RNAs as a new generation of RNAi therapeutics. *Cell Res*. 2021;31(6):631-648. 
+
+      [11]Kay MA, He CY, Chen ZY. A robust system for production of minicircle DNA vectors. *Nat Biotechnol*. 2010;28(12):1287-1289. 
