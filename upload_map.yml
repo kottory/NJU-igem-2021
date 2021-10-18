@@ -311,6 +311,14 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/8/87/T--NJU-China--image--chenxi.jpg
     md5: 7e40414d293b4127156071758ce524d5
     upload_filename: T--NJU-China--image--chenxi.jpg
+  assets/image/coronavirus.jpg:
+    link_URL: https://2021.igem.org/wiki/images/2/28/T--NJU-China--image--coronavirus.jpg
+    md5: 48a909aa1b0d0053bb0971bb8638cb73
+    upload_filename: T--NJU-China--image--coronavirus.jpg
+  assets/image/cough.jpg:
+    link_URL: https://2021.igem.org/wiki/images/5/53/T--NJU-China--image--cough.jpg
+    md5: b500b4f81eb966bf3eb8896cad37ce04
+    upload_filename: T--NJU-China--image--cough.jpg
   assets/image/empty.jpg:
     link_URL: https://2021.igem.org/wiki/images/3/3e/T--NJU-China--image--empty.jpg
     md5: 4da0bea174dd82522c4d0ac97359a6bc
@@ -531,7 +539,7 @@ assets:
 css:
   style/global.css:
     link_URL: https://2021.igem.org/Template:NJU-China/style/globalCSS?action=raw&ctype=text/css
-    md5: 7338b5d565c4d6801458146df7fe3de2
+    md5: 4b2690b17c2b0dc88e2c468fd0e344f0
   style/homepage.css:
     link_URL: https://2021.igem.org/Template:NJU-China/style/homepageCSS?action=raw&ctype=text/css
     md5: d41d8cd98f00b204e9800998ecf8427e
@@ -631,7 +639,7 @@ html:
     md5: 3eedfcfafc2c2b112180091bc189fa92
   index.html:
     link_URL: https://2021.igem.org/Team:NJU-China
-    md5: f7c3cd93711297786d04d54d4a7548d2
+    md5: 487d0d460c2926c90fa5d0c670b4b757
   template/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/template
     md5: ed9f4d830aaef4f2b145b7afaf6eb652
