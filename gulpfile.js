@@ -25,7 +25,7 @@ function make_clean() {
 }
 
 function make_image() {
-  return src('src/assets/image/*').pipe(dest('build/assets/image/'));
+  return src('src/assets/image/**/*').pipe(dest('build/assets/image/'));
 }
 
 function make_file() {
