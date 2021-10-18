@@ -23,14 +23,14 @@
 }
 
 #nju-main-body h2 {
-  @apply text-3xl pb-4;
+  @apply text-3xl pb-4 font-bold text-center;
 }
 
 #nju-main-body h3 {
-  @apply text-2xl pb-4 font-bold;
+  @apply text-2xl mb-4 pl-4 font-sans font-bold border-l-4 my-auto border-teal-400;
 }
 
-#nju-main-body h3 {
+#nju-main-body h4 {
   @apply text-2xl pb-4;
 }
 
