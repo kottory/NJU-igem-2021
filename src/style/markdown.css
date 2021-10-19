@@ -14,8 +14,12 @@
   @apply list-disc mb-5 mt-3 pl-5;
 }
 
+#markdown-body ol {
+  @apply list-decimal mb-5 pl-5;
+}
+
 #markdown-body h1 {
-  @apply text-5xl pb-8 text-center tracking-wider;
+  @apply font-sans font-bold text-8xl pt-4 pb-8 text-center tracking-wider;
 }
 
 #nju-main-body img {
@@ -23,7 +27,7 @@
 }
 
 #nju-main-body h2 {
-  @apply text-3xl pb-4 font-bold text-center;
+  @apply text-3xl pb-10 font-bold text-center;
 }
 
 #nju-main-body h3 {
@@ -35,11 +39,15 @@
 }
 
 #markdown-body table {
-  @apply text-lg;
+  @apply text-lg mb-8;
 }
 
 #markdown-body thead {
   @apply capitalize;
+}
+
+#markdown-body pre {
+  @apply mb-8 ml-2 p-3 text-gray-600 bg-gray-50 text-base;
 }
 
 #markdown-body td {
