@@ -22,19 +22,19 @@
   @apply font-sans font-bold text-8xl pt-4 pb-8 text-center tracking-wider;
 }
 
-#nju-main-body img {
+#nju-main-body #markdown-body img {
   @apply max-w-full lg:max-w-lg;
 }
 
-#nju-main-body h2 {
+#nju-main-body #markdown-body h2 {
   @apply text-3xl pb-10 font-bold text-center;
 }
 
-#nju-main-body h3 {
+#nju-main-body #markdown-body h3 {
   @apply text-2xl mb-4 pl-4 font-sans font-bold border-l-4 my-auto border-teal-400;
 }
 
-#nju-main-body h4 {
+#nju-main-body #markdown-body h4 {
   @apply text-2xl pb-4;
 }
 
