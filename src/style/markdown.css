@@ -19,7 +19,7 @@
 }
 
 #markdown-body h1 {
-  @apply font-sans font-bold text-8xl pt-4 pb-8 text-center tracking-wider;
+  @apply font-sans font-black text-6xl pt-4 pb-8 text-center tracking-wider;
 }
 
 #nju-main-body #markdown-body img {
