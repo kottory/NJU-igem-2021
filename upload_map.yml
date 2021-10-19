@@ -51,6 +51,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/a/a3/T--NJU-China--image--84E2966618D4EFDE57FC3DCBCFE950FE.jpg
     md5: 84e2966618d4efde57fc3dcbcfe950fe
     upload_filename: T--NJU-China--image--84E2966618D4EFDE57FC3DCBCFE950FE.jpg
+  assets/image/Action_pattern_diagram.png:
+    link_URL: https://2021.igem.org/wiki/images/b/bd/T--NJU-China--image--Action_pattern_diagram.png
+    md5: 5e4c22dc447c983901e899cd042fefb5
+    upload_filename: T--NJU-China--image--Action_pattern_diagram.png
   assets/image/Ali-C19-1-1.png:
     link_URL: https://2021.igem.org/wiki/images/9/93/T--NJU-China--image--Ali-C19-1-1.png
     md5: 441cde7791a139deaddcb4ff10170966
@@ -67,6 +71,14 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/d/d6/T--NJU-China--image--Analysis_Ques_1.png
     md5: a45debc66ce62cc72508a1b7d53e55a5
     upload_filename: T--NJU-China--image--Analysis_Ques_1.png
+  assets/image/Art_Fig1.png:
+    link_URL: https://2021.igem.org/wiki/images/1/1e/T--NJU-China--image--Art_Fig1.png
+    md5: 533c908b8a829c5a041cbf45bfe89d9a
+    upload_filename: T--NJU-China--image--Art_Fig1.png
+  assets/image/Art_Fig2.png:
+    link_URL: https://2021.igem.org/wiki/images/7/7c/T--NJU-China--image--Art_Fig2.png
+    md5: 6c125ef85bdca94ab2d4818e2053193a
+    upload_filename: T--NJU-China--image--Art_Fig2.png
   assets/image/Asthma_type_2_inflammation.jpg:
     link_URL: https://2021.igem.org/wiki/images/d/dc/T--NJU-China--image--Asthma_type_2_inflammation.jpg
     md5: 5e5eecf759a2dd1b8d60a22e4e7cd6bf
@@ -75,6 +87,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/4/47/T--NJU-China--image--Communications.jpg
     md5: 505450e863e547cf7222a5d380afcb8c
     upload_filename: T--NJU-China--image--Communications.jpg
+  assets/image/Community/Communicatingwithresidents.jpg:
+    link_URL: https://2021.igem.org/wiki/images/7/70/T--NJU-China--image--Community--Communicatingwithresidents.jpg
+    md5: c1849ade680b2b4241129a0006a513b7
+    upload_filename: T--NJU-China--image--Community--Communicatingwithresidents.jpg
   assets/image/Community/Groupphoto.PNG:
     link_URL: https://2021.igem.org/wiki/images/d/d4/T--NJU-China--image--Community--Groupphoto.PNG
     md5: 168a733510911ef4398c1e3a5ee3e030
@@ -83,6 +99,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/a/a8/T--NJU-China--image--Community--PosteroftheWorldAsthmaDay.PNG
     md5: 3ecebdf1d207e1f879326b89447342a2
     upload_filename: T--NJU-China--image--Community--PosteroftheWorldAsthmaDay.PNG
+  assets/image/Contract.PNG:
+    link_URL: https://2021.igem.org/wiki/images/2/27/T--NJU-China--image--Contract.PNG
+    md5: 0618e9c6a5b376f78b9bd81189a285c8
+    upload_filename: T--NJU-China--image--Contract.PNG
   assets/image/Contribution_Fig1.png:
     link_URL: https://2021.igem.org/wiki/images/3/3a/T--NJU-China--image--Contribution_Fig1.png
     md5: 8549ee4fc5f961ae0d03c9ea774e43d8
@@ -171,6 +191,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/7/79/T--NJU-China--image--Heatmap_Province.png
     md5: ebedc1dbefd2d6d917e50a6537ef1aad
     upload_filename: T--NJU-China--image--Heatmap_Province.png
+  assets/image/Historical_income_statement.png:
+    link_URL: https://2021.igem.org/wiki/images/8/8f/T--NJU-China--image--Historical_income_statement.png
+    md5: 0829d37f82a671aa8085c78aebf16891
+    upload_filename: T--NJU-China--image--Historical_income_statement.png
   assets/image/Int_DBZQ_Hosp.png:
     link_URL: https://2021.igem.org/wiki/images/b/b8/T--NJU-China--image--Int_DBZQ_Hosp.png
     md5: 93f1fdb13b9696bfd33046512c717029
@@ -219,6 +243,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/c/ce/T--NJU-China--image--Int_wutang.png
     md5: e9e77653e45e5aed84fe15cd6fc3960b
     upload_filename: T--NJU-China--image--Int_wutang.png
+  assets/image/Market_share_after_launch.png:
+    link_URL: https://2021.igem.org/wiki/images/a/a2/T--NJU-China--image--Market_share_after_launch.png
+    md5: c9bdd4845f5b9d3d8a12ec5b337868b0
+    upload_filename: T--NJU-China--image--Market_share_after_launch.png
   assets/image/NAU-China.jpg:
     link_URL: https://2021.igem.org/wiki/images/9/90/T--NJU-China--image--NAU-China.jpg
     md5: 1b80f329ae7657c95936589be80b690d
@@ -255,6 +283,18 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/f/f7/T--NJU-China--image--NannanJiang.jpg
     md5: 038a2237673f916d06695fdff302ff30
     upload_filename: T--NJU-China--image--NannanJiang.jpg
+  assets/image/Notification_of_acceptance_of_patent_application.png:
+    link_URL: https://2021.igem.org/wiki/images/b/b4/T--NJU-China--image--Notification_of_acceptance_of_patent_application.png
+    md5: 0a164a9187b9781db08b5f7dec7a8f69
+    upload_filename: T--NJU-China--image--Notification_of_acceptance_of_patent_application.png
+  assets/image/PEST_analysis.png:
+    link_URL: https://2021.igem.org/wiki/images/1/1f/T--NJU-China--image--PEST_analysis.png
+    md5: 40c30fe86ea1afff7e032058a9b091dc
+    upload_filename: T--NJU-China--image--PEST_analysis.png
+  assets/image/PPPS_strategy.png:
+    link_URL: https://2021.igem.org/wiki/images/6/6b/T--NJU-China--image--PPPS_strategy.png
+    md5: 29d84092b87dc582466985f45b417816
+    upload_filename: T--NJU-China--image--PPPS_strategy.png
   assets/image/Partnership_Docking.png:
     link_URL: https://2021.igem.org/wiki/images/b/b2/T--NJU-China--image--Partnership_Docking.png
     md5: 0b2e8db96b2b9cb13686fff575750a45
@@ -279,6 +319,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/0/06/T--NJU-China--image--Partnership_ZJU-3.png
     md5: 7b2912356c25c995da1d219c85b8369c
     upload_filename: T--NJU-China--image--Partnership_ZJU-3.png
+  assets/image/Procedure.png:
+    link_URL: https://2021.igem.org/wiki/images/6/64/T--NJU-China--image--Procedure.png
+    md5: 536adb6b4619a80fc1e95bb691ff4f50
+    upload_filename: T--NJU-China--image--Procedure.png
   assets/image/Public/Airpollutionfactorsindifferentregions.png:
     link_URL: https://2021.igem.org/wiki/images/a/ac/T--NJU-China--image--Public--Airpollutionfactorsindifferentregions.png
     md5: 15ca616dbb2872b8c09bc9b762a3ac89
@@ -375,6 +419,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/5/5b/T--NJU-China--image--Result_Fig9.png
     md5: 94289d1f7d97d05eb7b58e869203b38c
     upload_filename: T--NJU-China--image--Result_Fig9.png
+  assets/image/SWOT_analysis.PNG:
+    link_URL: https://2021.igem.org/wiki/images/c/c7/T--NJU-China--image--SWOT_analysis.PNG
+    md5: 3d7fd6fcacb77b3717b801b4bcd71801
+    upload_filename: T--NJU-China--image--SWOT_analysis.PNG
   assets/image/Safety_Fig1.png:
     link_URL: https://2021.igem.org/wiki/images/7/71/T--NJU-China--image--Safety_Fig1.png
     md5: 208f947d0b9fe0f85fdf8e1a337fadce
@@ -423,6 +471,18 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/3/31/T--NJU-China--image--The_logo_of_OneHealth_Club.jpg
     md5: 06eb5671194e7c2bb104d6e6e2ef938f
     upload_filename: T--NJU-China--image--The_logo_of_OneHealth_Club.jpg
+  assets/image/Treatment_pattern_diagram.png:
+    link_URL: https://2021.igem.org/wiki/images/6/66/T--NJU-China--image--Treatment_pattern_diagram.png
+    md5: 32b81bb052ac74d434a0ac29d159db9f
+    upload_filename: T--NJU-China--image--Treatment_pattern_diagram.png
+  assets/image/Unit _product_cost_accounting.png:
+    link_URL: https://2021.igem.org/wiki/images/e/e4/T--NJU-China--image--Unit_product_cost_accounting.png
+    md5: 7577ddfbaf96d2285c50606c6633d3bb
+    upload_filename: T--NJU-China--image--Unit _product_cost_accounting.png
+  assets/image/Unit_product_cost_accounting.png:
+    link_URL: https://2021.igem.org/wiki/images/e/e4/T--NJU-China--image--Unit_product_cost_accounting.png
+    md5: 7577ddfbaf96d2285c50606c6633d3bb
+    upload_filename: T--NJU-China--image--Unit_product_cost_accounting.png
   assets/image/XJTU.jpg:
     link_URL: https://2021.igem.org/wiki/images/d/d2/T--NJU-China--image--XJTU.jpg
     md5: b00e1ad190ec16af369ff4510573b9e1
@@ -483,6 +543,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/8/8b/T--NJU-China--image--liyuting.jpg
     md5: c3a035f3312f00fbb39b13569ea1ff31
     upload_filename: T--NJU-China--image--liyuting.jpg
+  assets/image/logo.jpg:
+    link_URL: https://2021.igem.org/wiki/images/3/3d/T--NJU-China--image--logo.jpg
+    md5: e6a0256e728e6534ccf9f57772b6d9cd
+    upload_filename: T--NJU-China--image--logo.jpg
   assets/image/logo1.jpg:
     link_URL: https://2021.igem.org/wiki/images/c/c7/T--NJU-China--image--logo1.jpg
     md5: 7235731f31f2eb4b4b944659c9a7d947
@@ -735,7 +799,7 @@ assets:
 css:
   style/global.css:
     link_URL: https://2021.igem.org/Template:NJU-China/style/globalCSS?action=raw&ctype=text/css
-    md5: 576771c381180c096854c313bfd1b497
+    md5: 07f355498c85cc5e763d37f9d729f04c
   style/homepage.css:
     link_URL: https://2021.igem.org/Template:NJU-China/style/homepageCSS?action=raw&ctype=text/css
     md5: d41d8cd98f00b204e9800998ecf8427e
@@ -747,101 +811,107 @@ css:
     md5: 120cd32f3625c8e39630b1b4b28b0646
   style/markdown.css:
     link_URL: https://2021.igem.org/Template:NJU-China/style/markdownCSS?action=raw&ctype=text/css
-    md5: eefd9616c02cecbd01735602814baaba
+    md5: c77cbf2b2078fc14ef7761e1b97fe1a5
 html:
+  Achievements/index.html:
+    link_URL: https://2021.igem.org/Team:NJU-China/Achievements
+    md5: 0a02012554e223f4d31c310f3f442eb1
   Art/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Art
-    md5: 21e184035e6995892fef1b8b630b1f84
+    md5: 97a6ca43f5a1334cde28ba4459e48ace
   Attributions/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Attributions
-    md5: bdb53b4333f1316b41df4d5ab8e0193b
+    md5: 6a8e11c838857528b252e45e33b9dd20
+  Calendar/index.html:
+    link_URL: https://2021.igem.org/Team:NJU-China/Calendar
+    md5: 994b70ff51677a8009aad8fc80113e51
   Collaborations/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Collaborations
-    md5: d5f45cbcc9c2af6e7615bcc43e756e03
+    md5: aa7bd4a11ba39548350693547ac602b8
   Communication/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Communication
-    md5: 21e184035e6995892fef1b8b630b1f84
+    md5: 6a8e11c838857528b252e45e33b9dd20
   Contribution/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Contribution
-    md5: c5226725f46c67b53328e1fbb5e784f0
+    md5: dba21abe5edccf94244b4b56e85c8922
   Description/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Description
-    md5: 0d0335b95883d395feb9fbd61c8db1a0
+    md5: 809fbaaff871e871cdff60f3a407f299
   Design/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Design
-    md5: 20355451e0bb8e4ace326c1089e2b20a
+    md5: 99cd475f847f96bb74d344e3a7c5ce66
   Education/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Education
-    md5: 98bc0ee398adb522fa65ad64230eede0
+    md5: 95bf9bf4cfa6244ba55bddd6fb98c9ec
   Engineering/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Engineering
-    md5: 8a18e0bf4fd2f68429dcf499f6b52f97
+    md5: e0fa591ac8cd50e91b6388a6b380c62e
   Entrepreneurship/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Entrepreneurship
-    md5: 21e184035e6995892fef1b8b630b1f84
+    md5: 95bf9bf4cfa6244ba55bddd6fb98c9ec
   Experiments/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Experiments
-    md5: 21e184035e6995892fef1b8b630b1f84
+    md5: 95bf9bf4cfa6244ba55bddd6fb98c9ec
   Hardware/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Hardware
-    md5: 19a08ab9108dd00d13babefed8aba492
+    md5: fd897896d9e69deb3f7034cba0486120
   Human_Practices/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Human_Practices
-    md5: da7b5f4a2426672d7ed2e4be34186901
+    md5: 971e000824882bb2720f3c3bdb785f97
   Implementation/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Implementation
-    md5: 21e184035e6995892fef1b8b630b1f84
+    md5: b76c97b46dcc3993e7810ab314cac637
   Inclusivity/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Inclusivity
-    md5: 21e184035e6995892fef1b8b630b1f84
+    md5: 95bf9bf4cfa6244ba55bddd6fb98c9ec
   Measurement/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Measurement
-    md5: 21e184035e6995892fef1b8b630b1f84
+    md5: 95bf9bf4cfa6244ba55bddd6fb98c9ec
   Members/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Members
-    md5: 1b50b677ce290b9f8713500679915a3e
+    md5: ec2d20cef904083ced732997395c9309
   Model/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Model
-    md5: 1e1f34773e637e81f834315efe3fac53
+    md5: e120d1337e7a6b86877913eb930d0ed3
   Notebook/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Notebook
-    md5: 21e184035e6995892fef1b8b630b1f84
+    md5: 95bf9bf4cfa6244ba55bddd6fb98c9ec
   Partnership/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Partnership
-    md5: b67f169885dcf11e33135f46d2867ce6
+    md5: d2d504a57efbae083f5e019fa32a4e33
   Parts/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Parts
-    md5: 21e184035e6995892fef1b8b630b1f84
+    md5: fda6c946d770e41d624448bb7cd5cd7a
   Plant/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Plant
-    md5: 21e184035e6995892fef1b8b630b1f84
+    md5: 95bf9bf4cfa6244ba55bddd6fb98c9ec
   Proof_Of_Concept/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Proof_Of_Concept
-    md5: 6c555547778aeac6d9e8b1631d436717
+    md5: 04706845ba0c9fad6fd2c5c95c6f0baf
   Protocol/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Protocol
-    md5: e468841321df6cdc4a66d0dbba8c9b11
+    md5: 5abc6933db0f65c94f0943be6761a271
   Results/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Results
-    md5: ce29604212ff787e115a2bc538f3d458
+    md5: 9e3882bf718b2ae9f200d11e11a47402
   Safety/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Safety
-    md5: ff0455bc1f77eb201f134e9f28ee2b2c
+    md5: e3493f32f9130184cf330ad9c541803b
   Software/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Software
-    md5: 21e184035e6995892fef1b8b630b1f84
+    md5: 95bf9bf4cfa6244ba55bddd6fb98c9ec
   Sustainable/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Sustainable
-    md5: 21e184035e6995892fef1b8b630b1f84
+    md5: 95bf9bf4cfa6244ba55bddd6fb98c9ec
   Team/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/Team
-    md5: 21e184035e6995892fef1b8b630b1f84
+    md5: 95bf9bf4cfa6244ba55bddd6fb98c9ec
   index.html:
     link_URL: https://2021.igem.org/Team:NJU-China
-    md5: 896a793232d6ab89d83d817c8daa88db
+    md5: 3fa52dbc42228104ce94e33614caf8ae
   template/index.html:
     link_URL: https://2021.igem.org/Team:NJU-China/template
-    md5: 37cd6739cf93f2b543b293e34af67b97
+    md5: 91ccf00f0ad320edb5999a167ea63dcd
 js:
   script/alpine.js:
     link_URL: https://2021.igem.org/Template:NJU-China/script/alpineJS?action=raw&ctype=text/javascript

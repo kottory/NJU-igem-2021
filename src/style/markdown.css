@@ -57,3 +57,7 @@
 #nju-main-body #markdown-body center {
   @apply text-gray-500 pb-6 leading-relaxed text-base;
 }
+
+#nju-main-body #markdown-body code {
+  @apply border-0 p-0 text-gray-600;
+}
