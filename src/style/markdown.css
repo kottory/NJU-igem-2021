@@ -27,7 +27,7 @@
 }
 
 #nju-main-body #markdown-body h2 {
-  @apply text-3xl pb-10 font-bold text-center;
+  @apply text-4xl font-sans mb-10 font-bold text-center;
 }
 
 #nju-main-body #markdown-body h3 {
