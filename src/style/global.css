@@ -96,6 +96,8 @@
 
 #nju-main-body #nju-main-content #markdown-body .nju-brief-info img.nju-info-card-img {
   @apply w-32 h-32  mx-auto  rounded-full;
+  object-fit: cover;
+  object-position: center;
 }
 
 #nju-main-body #nju-main-content #markdown-body .nju-brief-info .nju-info-card-attri {

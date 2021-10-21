@@ -11,7 +11,8 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -34,6 +35,7 @@ module.exports = {
   variants: {
     extend: {
       textColor: ['active'], 
+      animation: ['hover', 'focus'],
     },
   },
   plugins: [],

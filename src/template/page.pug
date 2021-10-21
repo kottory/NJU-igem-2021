@@ -10,3 +10,8 @@ block script
   script(src="../script/global.js")
   script(src="https://2021.igem.org/common/MathJax-2.5-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML")
   
+block hero 
+  div(class="fixed bottom-8 right-8 z-10")
+    button(onclick="window.scrollTo({ top: 0, behavior: \"smooth\" })")
+      div(class="bg-white w-10 h-auto rounded-md text-gray-600 shadow-md p-2")
+        include ../svgs/arrow-up.svg
